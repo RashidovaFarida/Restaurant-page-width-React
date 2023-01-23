@@ -1,0 +1,41 @@
+.logIn,
+.signUp{
+    height: auto;
+    .logInTitle{
+        height: 10vh;
+    }
+    .Typewriter{
+        font-size: 28px;
+        color:#ffc68d;
+    }
+    .logInPhoto{
+        height: 87vh;
+        background: linear-gradient(rgba(2, 2, 2, 0.603),  rgba(0, 0, 0, 0.517)),
+        url(https://media.timeout.com/images/105846896/image.jpg) ,
+        ;
+        background-size: cover;
+    }
+    label{
+        padding-top: 4px;
+    }
+    .signIn{
+        a{
+            text-decoration: underline;
+            color: #3d301d;
+            font-size: 18px;
+            &:hover{
+                color: #C59D5F;
+            }
+        }
+    }
+}
+
+.bookBtn{
+    &:hover{
+        background-color: #C59D5F;
+    }
+    
+}
+
+
+// Media

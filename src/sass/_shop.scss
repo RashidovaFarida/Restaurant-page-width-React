@@ -1,0 +1,166 @@
+.introShop{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url('../img/shop/page-banner-bg-3.webp') ;
+    background-size: cover  ;
+}
+.shopProduct{
+    background-color: #fff0e3;
+
+    .card{
+        border-radius: 10px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        &:hover  .card-img-top{
+            transform: translateY(-2rem);
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        }
+        .card-img-top{
+            width: 92%;
+            height: 37vh;
+            margin-top:0.9rem ;
+            margin-left: 0.7rem; 
+            transition: all 0.2s ease-in-out;
+            border-radius: 10px;           
+
+      
+        }
+        .shopAdd{
+            position: absolute;
+            top: 14rem;
+            left: 4.2rem;
+            height: 3rem;
+            padding: 12px 30px;
+            background-color: #0E1317;
+            color:#fae5d1;
+            border-radius:25px;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+            &:hover{
+                color: saddlebrown;
+            }
+        }
+        &:hover .shopAdd{
+            box-shadow: none;
+            padding: 11px 28px;
+        }
+    }
+    .addPrice{
+        width: 100%;
+    }
+}
+
+
+// Media
+@media screen and (max-width:319px){
+    .shopProduct .card .shopAdd {
+        top: 15rem;
+        left: 8rem;
+
+    }
+    .footer .footer-social-media {
+        padding-left: 2.8%;
+
+    }
+    .footer{
+        padding: 1rem;
+        h5{
+            padding-top: 1rem;
+        }
+    }
+
+}
+@media screen and (max-width:480px) and (min-width:320px){
+    .shopProduct .card .shopAdd {
+        top: 15.5rem;
+        left: 10rem;
+
+    }
+    .shopProduct .card {
+        padding: 2%;
+    }
+    
+    .footer .footer-social-media {
+        padding-left: 2%;
+
+    }
+    .footer{
+        padding: 1rem;
+        h5{
+            padding-top: 1rem;
+        }
+    }
+    
+    
+}
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    .footer{
+        padding: 1rem;
+    }
+    .shopProduct .card .shopAdd {
+        top: 17.5rem;
+        left: 13rem;
+
+    }
+    .shopProduct  {
+        padding: 8%;
+    }
+    .shopProduct .card {
+        padding: 8%;
+    }
+   
+
+    .footer .footer-social-media {
+        padding-left: 1.5%;
+
+    }
+    
+}
+@media screen and (max-width:992px)   and (min-width: 769px){
+    .shopProduct .card .card-img-top{
+        width: 85%;
+        height: 20vh;
+    }
+    .shopProduct .card .shopAdd {
+        top: 8rem;
+        left: 2.1rem;
+        padding: 5px 15px;
+    }
+    .shopProduct .card:hover .shopAdd {
+        padding: 17px 22px;
+        left: 1.9rem;
+
+        
+    }
+    .footer .part1, .footer .part2, .footer .part3, .footer .part4 {
+        padding-left: 5rem;
+    }
+    .footer h5 {
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+    .footer .footer-social-media {
+        padding-left: 3%;
+
+    }
+    
+}
+@media  screen and (min-width: 992px) and (max-width:1200px) {
+    .shopProduct .card .card-img-top{
+        width: 85%;
+        height: 32vh;
+    }
+
+    .footer .part1, .footer .part2, .footer .part3, .footer .part4 {
+        padding-left: 5rem;
+    }
+    .footer h5 {
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+    .footer .footer-social-media {
+        padding-left: 2%;
+
+    }
+  
+}

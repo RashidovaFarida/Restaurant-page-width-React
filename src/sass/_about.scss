@@ -1,0 +1,144 @@
+.about-area{
+    
+    width: 100%;
+    height: 60vh ;
+    background-image: url(../img/about/page-banner-bg.webp);
+    background-size: cover;
+    a{
+        color: rgb(237, 172, 66);
+    }
+    img{
+        position: absolute;
+        width: 10%;
+        margin-top: 27vh;
+        left: 0;
+    }
+}   
+
+
+.cardSecAbout-sec2{
+    background-color: rgb(235, 213, 183);
+}
+// our service
+.our-service{
+    background-color: #F4F1EE;
+
+    .card{
+        background-color: #fff;
+        transition: all 2s;
+
+        .aboutIcon2{
+            display: none;
+
+        }
+        
+            &:hover .aboutIcon2{
+                display: flex;
+                animation: OpacityAni 1s;
+                transition: all 2s;
+            }
+            &:hover .aboutIcon1{
+                display: none;
+
+            }
+        
+    }
+}
+
+// team
+.resturant-team{
+    
+    background-color: #F4F1EE ;
+    .desingLine{
+        background-color: rgba(128, 80, 25, 0.606);
+    }
+    .textPersonal{
+        background-color: rgba(128, 80, 25, 0.808);
+    }
+    .imgPersonalCon {
+        margin-left: 1.5rem;
+    }
+   .socialMediaPersonal {
+    margin-top: 2.2rem;
+    background-color:#966f42c2;
+   }
+}
+//Reserve 
+.aboutReserve{
+    background:
+    linear-gradient(#000000b3, #000000ac),
+    url('../img/about/visit-us-today-bg-img.webp'); 
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+   
+  form {
+    input{
+        height: 6vh;
+        background-color: rgba(13, 13, 13, 0.834);
+        padding: 2%;
+        border: 1px solid #fff;
+        color: #fff;
+
+        
+    }
+    select{
+        height: 6vh;
+        background-color: rgba(13, 13, 13, 0.834);
+        padding: 1%;
+        border: 1px solid #fff;
+        color: #fff;
+
+    }
+    button{
+        height: 7vh;
+        width: 100%;
+    }
+    ::placeholder{
+        color: #fff;
+    }
+  }
+}
+// CountUp
+.about-odmera{
+    .odometer-area{
+        background-color: #fff;
+
+    }
+}
+//Location
+.locationInAbout{
+    .location-our-restorant{
+    background-color: #F4F1EE;
+}
+h3{
+    color: #141A1F;
+}
+h6{
+    color: rgb(237, 185, 102);
+}
+}
+
+
+
+// Media 320-480
+@media screen and (max-width:480px) and (min-width:320px){
+
+}
+
+// 481-768
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+
+}
+
+//769-992
+@media screen and (max-width:991px)   and (min-width: 769px){}
+
+// 992-1200
+@media  screen and (min-width: 991px) and (max-width:1200px) {
+    .resturant-team{
+        .imgPersonalCon {
+            margin-right:rem !important;
+        }
+    }
+}

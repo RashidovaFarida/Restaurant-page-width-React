@@ -1,0 +1,131 @@
+.footer{
+    background-color: #0E1317;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    .part1,
+    .part2,
+    .part3,
+    .part4{
+        height: 40vh;
+    }
+    h5{
+        color: #fff;
+    }
+    li, p{
+        color:#c4c4c4 ;
+    }
+    
+    a{
+        color: #c4c4c4;
+        &:hover{
+            color: #d8a15a;
+        }
+    }
+    .footer-social-con{
+        width: 100%;
+    }
+    .footer-social-media{
+        width: 30px;
+        height:30px;
+        padding-left: 2.7%;
+        padding-top: 0.5vh;
+        background-color: #886435;
+        border-radius: 50%;
+        transition: all 1s;
+
+        &:hover{
+        background-color: #fff;
+        color: #886435;
+        transition: all 1s;
+        }
+    }
+    
+    .right{
+        color: #886435;
+    }
+    .part3{
+        width: 100%;
+        p{
+            font-size: 14px;
+        }
+        .part3Text{
+            width: 100%;
+        }
+    }
+    .part4{
+        
+        div{
+            width: 100%;
+           padding-left: 10%;
+
+        }
+
+        .max-width-50{
+            max-width: 70%;
+        }
+    }
+    .size{
+        width: 50px;
+    }
+}
+
+.lightMode{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 3px;
+    position: fixed;
+    top: 85vh;
+    left: 2rem;
+    z-index:10;
+}
+.darkMode{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(3, 3, 3) !important   ;
+    padding: 3px;
+    position: fixed;
+    top: 85vh;
+    left: 2rem;
+    z-index: 6;
+}
+@media screen and (max-width:320px){
+    footer{
+        height: auto !important;
+    }
+}
+
+
+@media screen and (max-width:480px) and (min-width:320px){
+    footer{
+        height: auto !important;
+    }
+}
+
+
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    footer{
+        height: auto !important;
+    }
+}
+
+
+@media screen and (max-width:992px)   and (min-width: 769px){
+    footer{
+        height: auto !important;
+    }
+}
+
+
+
+
+@media  screen and (min-width: 992px) and (max-width:1200px) {
+    footer{
+        height: auto !important;
+        
+    }
+}   

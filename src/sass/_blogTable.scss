@@ -1,0 +1,134 @@
+.bookTable{
+    
+
+    .addBtn{
+        background-color: #8b4513;
+        color: #fff;
+    }
+}
+
+.delete{
+    position: absolute;
+    bottom: 23vh;
+    right: 5.5rem;
+    border-radius:0 ;
+}
+.listBlog{
+    img{
+        width: 11rem;
+        height: 11rem;
+    }
+    .edit{
+       a{
+        background-color: #8b4513;
+        color: #fff;
+       }
+    }
+    .dec{
+        text-align: justify;
+    }
+    
+}
+.backBtn{
+    margin-bottom: 5rem !important;
+    font-size: 26px;
+    color: #fff;
+    &:hover{
+        color: #8b4513;
+    }
+}
+@media screen and (max-width:319px){
+    .listBlog img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .dec{
+        font-size: 12px;
+    }
+    .bookTable .addBtn {
+       font-size: 12px;
+    }
+    .listBlog .edit a {
+       font-size: 12px;
+    }
+    .blogId{
+        display: none;
+    }
+    #idBlog{
+        display: block !important;
+        font-size: 12px;
+    }
+    .blogTableTitle{
+        display: none;
+    }
+    .readMoreBtn{
+        font-size: 12px;
+    }
+    .delete{
+        bottom: 29vh;
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:320px){
+    .listBlog img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .dec{
+        font-size: 12px;
+    }
+    .bookTable .addBtn {
+       font-size: 12px;
+    }
+    .listBlog .edit a {
+       font-size: 12px;
+    }
+    .blogId{
+        display: none;
+    }
+    #idBlog{
+        display: block !important;
+        font-size: 12px;
+    }
+    .readMoreBtn{
+        font-size: 12px;
+    }
+    .delete{
+        bottom: 29vh;
+        right: 2rem;
+    }
+}
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    .listBlog  {
+        img{
+        width: 5rem;
+        height: 5rem;
+    }
+    th{
+        font-size: 12px;
+    }
+    }
+    .delete{
+        bottom: 28vh;
+        right: 4rem;
+    }
+    
+}
+@media screen and (max-width:992px)   and (min-width: 769px){
+    .listBlog img {
+        width: 6rem;
+        height: 6rem;
+    }
+    .dec{
+        font-size: 12px;
+    }
+    .delete{
+        bottom: 28vh;
+    }
+}
+@media  screen and (min-width: 992px) and (max-width:1200px) {
+    .delete{
+        bottom: 28vh;
+    }
+}

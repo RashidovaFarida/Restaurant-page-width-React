@@ -1,0 +1,118 @@
+.navbar.sticky{
+    background-color: #fff;
+    color: #fff;
+    position: sticky;
+    transition: all 1s;
+    z-index: 7!important;
+
+}
+.active{
+    border-bottom: 0.5px solid #995d22;
+}
+
+.bold-none{
+    font-weight: 100 !important;
+}
+.navbar.sticky .logo2{
+    display: flex;
+}
+.navbar.sticky .logo1{
+    display: none;
+}
+.navbar.sticky .active{
+    color: #C5782A;
+}
+.navbar.sticky #nav-link{
+    color: #000 !important;
+}
+.navbar.sticky .bookBtn{
+    &:hover{
+        transition: all 1s;
+        background-color: #995d22;
+        color: #fff !important;
+    }
+}
+.navbar.sticky .multiBtn{
+    color: #000;
+}
+nav {
+    position:sticky !important;
+    top: 0;
+    transition: all 1s;
+    background-color: #1F2429;
+    z-index: 6 !important;
+}
+.logo2{
+    display: none;
+    width: 75%;
+
+}
+#nav-link {
+    color: #fff ;
+
+}
+.logo1{
+    width: 75%;
+}
+
+.bookShop{
+    color: #F7D250 !important;
+}
+.bookBtn{
+    width: 7rem;
+    height: 40px;
+    background-color: #C59D5F;
+    border-radius: 0;
+    font-size: 12px;
+    transition: all 1s;
+
+
+    &:hover{
+        color: #fff;
+        box-shadow: 2px 3px 2px 2px inset #1e1c1a ;
+        transition: all 1s;
+    }
+}
+.logo1{
+    width: 5rem;
+}
+.logo2{
+    width: auto;
+}
+
+.navContainer{
+    margin-left: 10%!important;
+    
+}
+.toggler-icon{
+    color: #fff;
+    font-size: 30px !important ;
+}
+.navbar.sticky .toggler-icon{
+    color: #000 ;
+}
+
+.navItem{
+    width: 5.4rem;
+    display: flex;
+    justify-content: center;
+}
+.fr{
+    margin-left: -3%;
+}
+.multiBtn{
+    &:hover{
+        color: #995d22;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: end;
+    }
+}
+
+
+
+

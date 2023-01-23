@@ -1,0 +1,263 @@
+.introSingleBlog{
+    background: url(../img/blog/page-banner-bg-4.webp);
+    width: 100%;
+    height: 50vh;
+
+    .blogTextContainer {
+        position: relative;
+        z-index: -1;
+        height: auto;
+    }
+}
+
+.shareSocial{
+    width: 20%;
+    .shareBtn{
+        width: 30px;
+        transition: all 0.5s;
+
+        &:hover{
+            transform: translateY(-4px);
+            transition: all 0.5s;
+            scale: 1.05;
+        }
+    }
+}
+.mediaIconContainer{
+    padding-top: 30vh !important;
+}
+.commentsInput{
+    width: 100%;
+    .emailName{
+        width: 50%;
+        input{
+            width: 49%;
+            height: 6vh;
+            padding: 5px;
+            outline: none;
+        }
+
+    }
+    .writeArea{
+        width: 50% !important;
+        textarea{
+            padding: 5px;
+            width: 100%;
+            outline: none;
+            
+        }
+       
+    }
+    button{
+        width: 12%;
+        border: none;
+    }
+}
+
+.blogDetalsText{
+    text-align: justify;
+}
+@media screen and (max-width:320px){
+    .blogDetailExapmle{
+        padding-top: 40rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+    .tagBox {
+        height: 40vh !important;
+    }
+    .mediaIconContainer {
+        padding-top: 0vh !important;
+    }
+    .shareSocial {
+        width: 50%;
+    }
+    .commentsInput {
+        margin-left: 5px;
+        margin-top: 10px
+
+    }
+    .commentsInput .writeArea textarea{
+        margin-top: 2px;
+    }
+    .blogDetailsItem .blogDetalsText img {
+        width: 90% !important;
+    }
+    .desinLineG {
+        width: 14.8rem !important;
+    }
+    .checkboxLabel{
+        font-size: 14px ;
+        padding-left: 5px ;
+    }
+    .blogDetailsItem .blogDetailExapmle .bestBlog .bestBlogCard #blogTitle{
+        padding-left: 6px;
+    }
+    .commentsInput button {
+        width: 20%;
+    }
+}
+@media screen and (max-width:368px) and (min-width:320px){
+    .blogDetailExapmle{
+        padding-top: 34rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+    .tagBox {
+        height: 40vh !important;
+    }
+    .mediaIconContainer {
+        padding-top: 0vh !important;
+    }
+    .shareSocial {
+        width: 50%;
+    }
+    .commentsInput {
+        margin-left: 5px;
+        margin-top: 10px
+
+    }
+    .commentsInput .writeArea textarea{
+        margin-top: 2px;
+    }
+    .blogDetailsItem .blogDetalsText img {
+        width: 90% !important;
+    }
+    .desinLineG {
+        width: 14.8rem !important;
+    }
+    .checkboxLabel{
+        font-size: 14px ;
+        padding-left: 5px ;
+    }
+    .blogDetailsItem .blogDetailExapmle .bestBlog .bestBlogCard #blogTitle{
+        padding-left: 6px;
+    }
+    .commentsInput button {
+        width: 20%;
+    }
+}
+
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    .blogDetailExapmle{
+        padding-top: 28rem !important;
+    }
+    .tagBox {
+        height: 40vh !important;
+    }
+    .mediaIconContainer {
+        padding-top: 0vh !important;
+    }
+    .shareSocial {
+        width: 30%;
+    }
+    .commentsInput {
+        margin-left: 5px;
+
+    }
+    .commentsInput .writeArea textarea{
+        margin-top: 2px;
+    }
+    .blogDetailsItem .blogDetalsText img {
+        width: 90% !important;
+    }
+    .checkboxMain{
+        padding: 0 !important;
+       
+    
+}
+}
+@media screen and (max-width:480px) and (min-width:368px){
+    .blogDetailExapmle{
+        padding-top: 27.5rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+    .tagBox {
+        height: 40vh !important;
+    }
+    .mediaIconContainer {
+        padding-top: 0vh !important;
+    }
+    .shareSocial {
+        width: 50%;
+    }
+    .commentsInput {
+        margin-left: 5px;
+        margin-top: 10px
+
+    }
+    .commentsInput .writeArea textarea{
+        margin-top: 2px;
+    }
+    .blogDetailsItem .blogDetalsText img {
+        width: 90% !important;
+    }
+    .desinLineG {
+        width: 16.3rem !important;
+    }
+    .checkboxLabel{
+        font-size: 14px ;
+        padding-left: 5px ;
+    }
+    .blogDetailsItem .blogDetailExapmle .bestBlog .bestBlogCard #blogTitle{
+        padding-left: 6px;
+    }
+    .commentsInput button {
+        width: 20%;
+    }
+}
+
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    .blogDetailExapmle{
+        padding-top: 25rem !important;
+    }
+    .tagBox {
+        height: 40vh !important;
+    }
+    .mediaIconContainer {
+        padding-top: 0vh !important;
+    }
+    .shareSocial {
+        width: 30%;
+    }
+    .commentsInput {
+        margin-left: 5px;
+
+    }
+    .commentsInput .writeArea textarea{
+        margin-top: 2px;
+    }
+    .blogDetailsItem .blogDetalsText img {
+        width: 90% !important;
+    }
+    .checkboxMain{
+        padding: 0 !important;
+       
+    }
+    
+    
+}
+@media screen and (max-width:992px)   and (min-width: 769px){
+    .mediaIconContainer{
+        padding-top: 80vh !important;
+    }
+    .shareSocial {
+        width: 30%;
+    }
+    .desinLineG {
+        width: 16.5rem !important;
+    }
+}
+@media  screen and (min-width: 992px) and (max-width:1200px) {
+    .mediaIconContainer{
+        padding-top: 50vh !important;
+    }
+    .shareSocial {
+        width: 30%;
+    }
+  
+}

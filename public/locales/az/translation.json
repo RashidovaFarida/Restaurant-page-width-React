@@ -1,0 +1,360 @@
+
+{
+    "nav":{
+        "1": "Ana Səhifə",
+        "2": "Haqqımızda",
+        "3":"Menyu",
+        "4": "Mağaza",
+        "5": "Blog",
+        "6": "Əlaqə",
+        "7": "Rezervasiya",
+        "8":"Dashboard"
+    },
+    "homeSec1":{
+        "1":"Restoranımıza xoş gəlmisiniz",
+        "2":"Restoranımız sizə Ləzzətli məhsullar təklif edir.",
+        "3":"“Yemək təcrübənin bir hissəsidir. Və yemək təcrübəsinin 50-60 faizi arasında olmalıdır. Amma qalanlar da önəmlidir: əhval-ruhiyyə, atmosfer, musiqi, hiss, dizayn, boşqabda olanlarla boşqabın ətrafındakılar arasındakı harmoniya.” - Alain Ducasse, aşpaz.",
+        "4":"Daha çox oxu"
+    },
+    "discoverAreaTitle":{
+        "1":"Yeni məhsullar",
+        "2":"Bacarıqlı aşpazlar",
+        "3":"Ən yaxşı bar",
+        "4":"Veqan mətbəxi"
+    },
+    "discoverAreaDetails":{
+        "1":"Bədənimizin sağlamlığını qorumaq üçün əsl, təzə qidaya ehtiyacı var.",
+        "2":"Bütün aşpazların ortaq cəhətlərindən biri yemək bişirməyi bacaran anadır.",
+        "3":"Şərab içkilər arasında ən sağlam və ən gigiyenikdir.",
+        "4":"Pəhrizimi yaxşılaşdırdıqca,özümü sevməyi öyrənməyə başladım"
+    },
+    "discoverAreaBtn":{
+        "1":"Daha çox",
+        "2":"Daha çox",
+        "3":"Daha çox",
+        "4":"Daha çox"
+    },
+    "aboutUs":{
+        "1":"Haqqımızda",
+        "2":" Restoranımızda Fövqəladə Dad Səyahətindən Həzz alın",
+        "3":"Bir restorana getsəniz və bəyəndiyiniz insanlarla getsəniz, yeməyiniz həmişə həqiqətən dadlı olacaq"
+        
+    },
+    "aboutUsCard":{
+        "1":"Xüsusi",
+        "2":"Restoran"
+        },
+    "aboutUsCard1":{
+        "1":"Hər gözəl restoran menyusu böyük bir şeir əsəridir.",
+        "2":"Hər gözəl restoran menyusu böyük bir şeir əsəridir."
+        },
+    "aboutUs1":{
+        "1":"Böyük bir mülkə az miqdarda protein və ən vacib xidmət lazımdır.",
+        "2":"“Mükəmməl işləyən restoran əla işləyən ailədir.”",
+        "3":"Sifariş et"
+        
+    },
+    "menuTab":{
+        "1":"Menyumuzdan",
+        "2":"Xüsusi Təkliflərimizi sınayın",
+        "3":"Şam yeməyi",
+        "4":"Nahar",
+        "5":"Səhər yeməyi",
+        "6":"Desert",
+        "7":"Içkilər",
+        "8":"Hamısına bax"
+    },
+    "menuTabSilderAddBtn":{
+        "1":"Əlavə et"
+    },
+    "menuTabSliderDinner":{
+        "1":"Toyuq Şorpası",
+        "2":"Yulaf Şorbası",
+        "3":"Pizza Pane",
+        "4":"Tərəvəz pastası",
+        "5":"Şirin Kartof Şorpası",
+        "6":"Pomidor Şorbası"
+    },
+    "menuTabSliderLunch":{
+        "1":"Toyuq və Biskvit",
+        "2":"Toyuq Burger",
+        "3":"Rikota pomidoru",
+        "4":"Ruben sendviç",
+        "5":"Pasta Alla Norma"
+    },
+    "odmeraArea":{
+        "1":"Günlük Müştəri sayı",
+        "2":"Rezerv sayı",
+        "3":"Səhər yeməyi seçimi",
+        "4":"Nahar Seçimi"
+    },
+    "testimonialsTitle":{
+        "1":"Rəylərimiz",
+        "2":"Müştəri rəyimiz"
+    },
+    "testimonialsDetails":{
+        "1":"Balans mükəmməl tarazlığı təklif edir. Belə bir şey yoxdur. Bu, yalan gözləntidir... Həyatınızın prioritetləri və ölçüləri olacaq, onları necə inteqrasiya edirsinizsə, əsl xoşbəxtliyi necə tapırsınız.",
+        "2":"Lorem ipsum-un keçidlərinin bir çox variasiyası mövcuddur ki, əksəriyyət bir keçiddən istifadə etmək niyyətində olmayan, yeridilmiş təsadüfi sözlər tərəfindən müəyyən formada dəyişikliyə məruz qalmışdır."
+    },
+    "portfolioTitle":{
+        "1":"Restoranımızın komandası",
+        "2":"Peşəkarlarımızla Tanış Olun"
+    },
+    "portfolioDetail":{
+        "1":"Köməkçi",
+        "2":"Ceo Founder",
+        "3":"Şef"
+    },
+    "reserve":{
+        "1":"Bu gün bizi ziyarət edin",
+        "2":"Rezerv et",
+        "3":"1 nəfər üçün",
+        "4":"2 nəfər üçün",
+        "5":"3 nəfər üçün",
+        "6":"4 nəfər üçün",
+        "7":"5 nəfər üçün",
+        "8":"6 nəfər üçün",
+        "9":"Ad , Soyad",
+        "10":"Telefon",
+        "11":"Rezerv et"
+    },
+    "location":{
+        "1":"Məkanımızı Tapın",
+        "2":"Restoranımızın Bütün Dünyada Yerləri",
+        "3":"Rəqabətdən fərqlənmək üçün ilk növbədə komanda olaraq bir yerdə dayanmalısınız",
+        "4":"Restoranımız Haradadır",
+        "5":"Ekvador",
+        "6":"Peru",
+        "7":"Braziliya",
+        "8":"Birləşmiş Krallıq",
+        "9":"Azərbaycan",
+        "11":"Daha çox"
+    },
+    "blog":{
+        "1":"Blogumuz",
+        "2":"Ən son Bloq və Xəbərlər",
+        "3": "Çox oxu"
+    },
+    "blogCardP":{
+        "1":"Admin & Restarant",
+        "2":"Admin xəbərlər & məsləhətlər",
+        "3":"Admin yemək & içkilər"
+    },
+    "blogCardTitle":{
+        "1":"Eleqant Desert Evdə Hazırlanması üçün 10 Məsləhət",
+        "2":"Həftənin Yemək Növləri -Türk Şorbası  başlıqlı yazısı",
+        "3":"Mükəmməl əhval-ruhiyyə üçün Barmenlərimizdən İdeal Kokteyllər"
+    },
+    "footer":{
+        "1":"Yemək təcrübənin bir hissəsidir.Amma qalanlar da önəmlidir: əhval-ruhiyyə, atmosfer, musiqi, hiss, dizayn, boşqabda olanlarla boşqabın ətrafındakılar arasındakı harmoniya.",
+        "2":"Faydalı Link",
+        "3":"Iş saatları",
+        "4":"Bazar ertəsi",
+        "5":"Çərşənbə axşamı",
+        "6":"Çərşənbə",
+        "7":"Cümə",
+        "8":"Şən-Baz",
+        "9":"Bağlı",
+        "10":"Əlaqədə olmaq",
+        "11":"",
+        "15":""
+    }, 
+    "aboutFirst":{
+        "1":"Haqqımızda",
+        "2":"Ana Səhifə"
+    },
+    "ourService":{
+        "1":"Bizim xidmətlə",
+        "2":"Xüsusi Təklifimizi sınayın"
+    },
+    "menuFirst":{
+        "1":"Menyu",
+        "2":"Ana Səhifə"
+    },
+    "filterBtn":{
+        "1":"Şam yeməyi",
+        "2":"Nahar",
+        "3":"Səhər yeməyi",
+        "4":"İçkilər",
+        "5":"Veqan",
+        "6":"Desert",
+        "7":"Hamısı"
+    },
+    "titleFilter":{
+        "1":"Yogurtlu Tuna Salatı",
+        "2":"Grenache",
+        "3":"Ərinmiş şokoladlı puding",
+        "4":"Sarımsaqlı otlu bif",
+        "5":"Chicken Yakitori",
+        "6":"Neapolitan makaron",
+        "7":"Kartof Kielbasa Tava",
+        "8":"Qızardılmış Toyuq",
+        "9":"Toyuq Parmesan",
+        "10":"Ot ilə ızgara mal əti",
+        "11":"Mal əti karnitaları",
+        "12":"Sidr qızılbalığı",
+        "13":"Türk toyuq kababları",
+        "14":"Braziliya balıq güveç",
+        "15":"Pasta Napolitana",
+        "16":"Doldurulmuş Bibər",
+        "17":"Toyuq Chimichangas",
+        "18":"Otlar ilə pomidor salatı",
+        "19":"Buffalo toyuq sarğıları",
+        "20":"Şaftalı Caprese Salatı",
+        "21":"Turp manqal qabları",
+        "22":"Bahar rulonlu qablar",
+        "23":"Xiyar avokado şorbası",
+        "24":"Bibər biftek resepti",
+        "25":"Acılı Karides Tacos",
+        "26":"Qızardılmış düyü tortları",
+        "27":"Şirin kartof şorbası",
+        "28":"Caprese omleti",
+        "29":"Monte Kristo sendviçi",
+         "30":"Limonlu Rikotta Pancake",
+        "31":"Şakşuka",
+        "32":"Yumurta və Kartof Güveç",
+        "33":"Yumurtalı Muffinlər",
+        "34":"Qovrulmuş qulançar",
+        "35":"Caprese omleti",
+        "36":"Qaynadılmış Yumurta",
+        "37":"Qaragiləli Papkek",
+        "38":"Köhnə üsul papkek",
+        "39":"Dadlı Chive Pancakes",
+        "40":"Kərə yağı kruvasanları",
+        "41":"Yaşıl Smoothie Bowl",
+        "42":"Çay",
+        "43":"Espresso",
+        "44":"Latte",
+        "45":"Cappuccino",
+        "46":"Meyvə şirələri",
+        "47":"Tempranillo",
+        "48":"Merlot",
+        "49":"Mərci Bolonyası",
+        "50":"Pizza",
+        "51":"Hindistancevizi düyü qabları",
+        "52":"Tərəvəz Biryani",
+        "53":"Xırtıldayan sendviç",
+        "54":"Qovrulmuş gül kələm",
+        "55":"Portobello Taco",
+        "56":" CHINESE EGGPLANT",
+        "57":"Maltesers tiramisu",
+        "58":"Darçınlı krem-brule",
+        "59":"Alma giləmeyvə parçalanması",
+        "60":"Choc a block",
+        "61":"Şokolad, pendir tortu",
+        "62":"Amaretto tart",
+        "63":"Alma və albalı strudel",
+        "64":"İsti şokolad"
+    }
+    ,
+    "filterPrice":{
+        "1":"Tərkibi",
+        "2":"Qiyməti"
+    },
+    "eptyCart":{
+        "1":"Səbətiniz boşdur",
+        "2":"Şəkil",
+        "3":"Başlıq",
+        "4":"Qiymət",
+        "5":"Sayı",
+        "6":"Sil",
+        "7":"Cəmi",
+        "8":" Hamısını təmizlə",
+        "9":"Ödə"
+    },
+    "BlogDetailsItem":{
+        "1":"Həştəq",
+        "2":"Yemək",
+        "3":"Kofe",
+        "4":"Desert",
+        "5":"İçkilər",
+        "6":"Menu",
+        "7":"Son Postlar",
+        "8":"Blog təfərrüatlar"
+        
+     },
+    "bestBlogData":{
+        "1":"24 Dekabr 2022",
+        "2":"06 Yanvar 2023",
+        "3":"06 Yanvar 2023"
+    },
+    "bestBlogTitle":{
+        "1":"Mükəmməl əhval-ruhiyyə üçün barmenimizdən ideal kokteyllər",
+        "2":"Növlərlə Türk Şorbası: Həftənin Yeməyi",
+        "3":"Eleqant Desert: Evdə Hazırlanması üçün 10 Məsləhət"
+    },
+    "blogTitle":{
+        "1":"Ideal Cocktails From Our Barmen For Pefect Mood",
+        "2":"Turkish Soup With Species: Dish Of The Week ",
+        "3":"Elegant Dessert: 10 Tips How To Make It At Home"
+    },
+    "share":{
+        "1":"Paylaş"
+    },
+    "comment":{
+        "1":"Ad",
+        "2":"E-poçt",
+        "3":"Rəyiniz",
+        "4":"Rəylər",
+        "5":"Növbəti şərh üçün məlumatımı yadda saxlayın",
+        "6":"Rəyi paylaş"
+    },
+    "singleBlog":{
+        "1":"Ətraflı"
+    },
+    "shopCartDetails":{
+        "1":"Kartın başlığı üzərində qurmaq və kartın əsas hissəsini təşkil etmək üçün bəzi qısa nümunə mətni"
+    },
+
+    
+    "contactCard":{
+        "1":"Telefon:",
+        "2":"Email:",
+        "3":"Məkan:"
+    }
+    ,
+    "contact":{
+        "1":"Əlaqədə üçün",
+        "2":"Bizimlə əlaqə",
+        "3":"Məkanımızı tap",
+        "4":"Razıyam",
+        "5":" Şərtlər & Qaydalar ",
+        "6":"Gizlilik ilə ",
+        "7":"və",
+        "8":"Mövzu",
+        "9":"Mesajınız",
+        "10":"Göndər"
+    },
+    "logIn":{
+        "1":"İstifadəçi adı",
+        "2":"Parol",
+        "3":"Göndər",
+        "4":"Məni xatırla",
+        "5":"Daxil ol",
+        "6":"Qeydiyyatdan keçin",
+        "7":"Təkrarlayın"
+    },
+    "blogAddForm":{
+        "1":"Başlıq",
+        "2":"İzahı",
+        "3":"Şəkil",
+        "4":"Əlavə et",
+        "5":"Blog",
+        "6":"Təfərüatlar"
+    },
+    "errormsg":{
+        "1":"Ad tələb olunur",
+        "2":"Parol tələb olunur",
+        "3":"Telefon tələb olunur",
+        "4":"Tarix tələb olunur",
+        "5":"Saat tələb olunur",
+        "6":"Email tələb olunur",
+        "7":"Parol e-poçt ünvanı ilə uyğun gəlmir",
+        "8":"İstifadəçi adı verilənlər bazamızla uyğun gəlmir",
+        "9":"Qeydiyyatdan keçmək istəyirsinizsə, bu xananı işarələyin.",
+        "10":"Səhv e-mail",
+        "11":"Say tələb olunur",
+        "12":"Uğurlu rezervasiya",
+        "13":"Parollar eyni deyil"
+    }
+}

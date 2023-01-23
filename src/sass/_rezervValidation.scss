@@ -1,0 +1,68 @@
+.rezerv{
+    .testimonials-area {
+        background-color: #fff;
+    }
+    .testimonialsPart1{
+        h2{
+            color: #141A1F;
+        }
+    }
+    .testimonial-bg-video-icon{
+        background-image: url('https://templates.hibootstrap.com/ruzo/default/assets/images/visit-two-img.webp');
+    }
+
+    .book-area-input-2 {
+        background-color: #f7f4f0;
+    }
+    .rezverFrom{
+        height: 100%;
+      form{
+        padding-top: 2%;
+        height: 70vh;
+        width: 100%;
+        input{
+            width: 100%;
+            height: 8vh;
+            outline: none;
+            border: none;
+            background-color: #edeae5;
+            padding: 10px;
+            color: #959595;
+        }
+        span{
+            font-size: 20px;
+            color: red;
+        }
+        select{
+            width: 100%;
+            height: 8vh;
+            border: none;
+            background-color: #edeae5;
+            color: #959595;
+            padding: 10px;
+            
+
+        }
+        .bookBtn{
+            height: 8vh;
+            &:hover{
+                background-color: #6b2d00d8 !important;
+            }
+        }
+    }
+   
+    h4{
+        color: #181d22;
+    }
+
+    } 
+  
+
+}
+
+.error-msg{
+    color:rgb(215, 104, 24);
+    width: auto;
+    font-size: 16px;
+    padding: 5px 0;
+}

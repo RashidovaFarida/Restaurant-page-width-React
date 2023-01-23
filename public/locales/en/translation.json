@@ -1,0 +1,382 @@
+{
+    "nav":{
+        "1": "Home",
+        "2": "About us",
+        "3":"Menu",
+        "4": "Shop",
+        "5": "Blog",
+        "6": "Contact us",
+        "7": "Rezervation",
+        "8": "Dashboard"
+    },
+    "homeSec1":{
+        "1":"Welcome To Our Restaurant",
+        "2":"Our Restaurant Offers Delicious & Seafood",
+        "3":"“Food is one part of the experience. And it has to be somewhere between 50 to 60 percent of the dining experience. But the rest counts as well: The mood, the atmosphere, the music, the feeling, the design, the harmony between what you have on the plate and what surrounds the plate.” – Alain Ducasse, Chef.",
+        "4":"Read more"
+    },
+    "discoverAreaTitle":{
+        "1":"Fresh products",
+        "2":"Skilled Chefs",
+        "3":"Best Bar",
+        "4":"Vegan Cuisine"
+    },
+    "discoverAreaDetails":{
+        "1":"Our bodies need real, fresh food to maintain health.",
+        "2":"One thing all chefs have in common is a mother who can cook.",
+        "3":"Wine is the most healthful and most hygienic of beverages.",
+        "4":"As I improved my diet, I started to learn to love myself."
+
+    },
+    "discoverAreaBtn":{
+        "1":"Discover More",
+        "2":"Discover More",
+        "3":"Discover More",
+        "4":"Discover More"
+    },
+    "aboutUs":{
+        "1":"About Us",
+        "2":" Enjoy An Exceptional Journey Of Taste In Our Restaurant",
+        "3":"If you go to a restaurant and go with people you like, your food will always be really good"
+        
+    },
+    "aboutUsCard":{
+        "1":"Speciallst",
+        "2":"Restaurant",
+        "3":"Every great restaurant menu is a great work of poetry.",
+        "4":"Every great restaurant menu is a great work of poetry."
+    },
+    "aboutUs1":{
+        "1":"Mauris mattis lectus eget ligula dapibus, ac maximus ipsum Services.",
+        "2":" “A great working restaurant is a great working family.”",
+        "3":"Booking now"
+        
+    }
+    ,
+    "menuTab":{
+        "1":"From Our Menu",
+        "2":"Try Our Special Offers",
+        "3":"Dinner",
+        "4":"Lunch",
+        "5":"Brunch",
+        "6":"Dessert",
+        "7":"Drink",
+        "8":"View All"
+    },
+    "menuTabSilderAddBtn":{
+        "1":"Add card"
+    },
+    "menuTabSliderDinner":{
+        "1":"Oatmeal Chicken",
+        "2":"Chicken soup",
+        "3":"Pizza Pane",
+        "4":"Vegatable Paste",
+        "5":"Sweet Potato Soup",
+        "6":"Tomato Soup"
+    },
+    "menuTabSliderLunch":{
+        "1":"Chicken and Biscuits",
+        "2":"Chicken Burger",
+        "3":"Ricotta Tomato",
+        "4":"Reuben Sandwich",
+        "5":"Pasta Alla Norma"
+    },
+    "odmeraArea":{
+        "1":"Clients Every Day",
+        "2":"Table Available",
+        "3":"Breakfast Option",
+        "4":"Dinner Option"
+    },
+    "testimonialsTitle":{
+        "1":"Our Testimonials",
+        "2":"Our Client Feedback"
+    },
+    "testimonialsDetails":{
+        "1":"Balance suggests a perfect equilibrium. There is no such thing. That is a false expectation…. There are going to be priorities and dimensions of your life, how you integrate them is how you find true happiness.",
+        "2":"There are many variations of passages of Lorem ipsum availableatims thajority have suffered alteration in some form by injected randomised words which don't look even sligh going to use a passage."
+    },
+    "portfolioTitle":{
+        "1":"Team of Restaurant",
+        "2":"Meet Our Professionals"
+    },
+    "portfolioDetail":{
+        "1":"Assistant",
+        "2":"Ceo Founder",
+        "3":"Chef"
+    },
+    "reserve":{
+        "1":"Visit Us Today",
+        "2":"Make A Reserve",
+        "3":"Person for-1",
+        "4":"Person for-2",
+        "5":"Person for-3",
+        "6":"Person for-4",
+        "7":"Person for-5",
+        "8":"Person for-6",
+        "9":"Name , Surname",
+        "10":"Book A Table"
+    },
+    "location":{
+        "1":"Find Our Location",
+        "2":"Locations Of Our Restaurant All Over The World",
+        "3":"To stand apart from the competition, you must first stand together as a team",
+        "4":"Where is Our Restaurant",
+        "5":"Ecuador",
+        "6":"Peru",
+        "7":"Brazil",
+        "8":"United Kingdom",
+        "9":"Azerbaijan",
+        "11":"Read more"
+    },
+    "blog":{
+        "1":"Our Blog",
+        "2":"Latest Blog and News",
+        "3": "Read more"
+    },
+    "blogCardP":{
+        "1":"By Admin & Restaurant",
+        "2":"By Admin News & Tips",
+        "3":"By Admin Food & Drink"
+    },"blogCardTitle":{
+        "1":"Elegant Dessert 10 Tips How To Make It At Home",
+        "2":"Turkish Soup With Species Dish Of The Week",
+        "3":"Ideal Cocktails From Our Barmen For Perfect Mood"
+    },
+    "footer":{
+        "1":"“Food is one part of the experience.But the rest counts as well: The mood, the atmosphere, the music, the feeling, the design, the harmony between what you have on the plate and what surrounds the plate.” – Alain Ducasse, Chef.        ",
+        "2":"Useful Link",
+        "3":"Opening Hours",
+        "4":"Monday",
+        "5":"Tuesday",
+        "6":"Wednesday",
+        "7":"Friday",
+        "8":"Sat - Sun",
+        "9":"Closed",
+        "10":"Get In Touch",
+        "15":""
+    } , 
+    "aboutFirst":{
+        "1":"About Us",
+        "2":"Home"
+    },
+    "ourService":{
+        "1":"Our Services",
+        "2":"Try Our Special Offer "
+    },
+    "menuFirst":{
+        "1":"Menu",
+        "2":"Home"
+    },
+    "filterBtn":{
+        "1":"Dinner",
+        "2":"Lunch",
+        "3":"Breakfast",
+        "4":"Drink",
+        "5":"Vegan",
+        "6":"Dessert",
+        "7":"All"
+
+    },
+    "titleFilter":{
+        "1":"Tuna Salad With Yogurt",
+        "2":"Grenache",
+        "3":"Chocolate puddings",
+        "4":"Garlic Herbed Beef ",
+        "5":"Chicken Yakitori",
+        "6":"Pasta Napolitana",
+        "7":"Potato Kielbasa Skillet",
+        "8":"Fried Chicken",
+        "9":"Chicken Parmesan",
+        "10":"Grilled Beef Tenderloin",
+        "11":"Beef Carnitas",
+        "12":"Cedar Salmon",
+        "13":"Turkish Chicken Kebabs",
+        "14":"Brazilian Fish Stew",
+        "15":"Pasta Napolitana",
+        "16":"Stuffed Peppers",
+        "17":"Chicken Chimichangas",
+        "18":"Tomato Salad With Herb",
+        "19":"Buffalo Chicken Wraps",
+        "20":"Peach Caprese Salad",
+        "21":"Radish Barbecue Bowls",
+        "22":"Spring Roll Bowls",
+        "23":"Cucumber Avocado Soup",
+        "24":"Pepper Steak Recipe",
+        "25":"Spicy Shrimp Tacos",
+        "26":"Fried Rice Cakes",
+        "27":"Sweet Potato Soup",
+        "28":"Caprese Omelette",
+        "29":"Monte Cristo Sandwich",
+        "30":" Lemon Ricotta Pancakes",
+        "31":"Shakshuka",
+        "32":"Egg And Potato Casserole",
+        "33":"Egg Muffins",
+        "34":"Roasted Asparagus",
+        "35":"Caprese Frittata",
+        "36":"Boiled Eggs",
+        "37":"Blueberry Pancakes",
+        "38":"Old Fashioned Pancakes",
+        "39":"Savory Chive Pancakes",
+        "40":"Butter Croissants",
+        "41":"Green Smoothie Bowl",
+        "42":"Tea",
+        "43":"Espresso",
+        "44":"Latte",
+        "45":"Cappuccino",
+        "46":"Juice",
+        "47":"Tempranillo",
+        "48":"Merlot",
+        "49":"Lentil Bolognese",
+        "50":"Pizza ",
+        "51":"Coconut Rice Bowls",
+        "52":"Vegetable Biryani",
+        "53":"Crispy Sandwich",
+        "54":"Roasted Cauliflower",
+        "55":"Portobello Taco",
+        "56":" CHINESE EGGPLANT",
+        "57":"Maltesers tiramisu",
+        "58":"Cinnamon creme brulee",
+        "59":"Apple Berry Crumble",
+        "60":"Choc a block",
+        "61":"Chocolate ,cheesecake ",
+        "62":"Amaretto tart",
+        "63":"Apple & cherry strudel",
+        "64":"Hot chocolate",
+        "65":"Coffee",
+        "66":"Veranda Blend",
+        "67":"Wake me up",
+        "68":"Muir Woods",
+        "69":"Coffe",
+        "70":"Evla Coffee ",
+        "71":"Pouch Coffee",
+        "72":"Coffee Cafe",
+        "73":"Burger",
+        "74":"Vegan Burger",
+        "76":"Burger Classic",
+        "77":"Sandiwich"
+    },
+    
+    "filterPrice":{
+        "1":"Ingredients",
+        "2":"Price"
+    },
+    "Dinner":{
+        "1":" Garlic Herbed Beef",
+        "2":"Chicken Yakitori",
+        "3":"Pasta Napolitana",
+        "4":"Potato Kielbasa Skillet",
+        "5":"Fried Chicken",
+        "6":"Chicken Parmesan",
+        "7":"Grilled Beef Tenderloin",
+        "8":"Beef Carnitas",
+        "9":"Cedar Salmon",
+        "10":"Turkish Chicken Kebabs",
+        "11":"Brazilian Fish Stew",
+        "12":"Pasta Napolitana",
+        "13":"Stuffed Peppers",
+        "14":"Chicken Chimichangas"
+    },
+    "eptyCart":{
+        "1":"Your cart is empty",
+        "2":"Image",
+        "3":"Title",
+        "4":"Price",
+        "5":"Quantity",
+        "6":"Delete",
+        "7":"Total price",
+        "8":"Clear All",
+        "9":"Pay"
+    },
+    "BlogDetailsItem":{
+        "1":"Tag",
+        "2":"Food",
+        "3":"Coffee",
+        "4":"Dessert",
+        "5":"Drink",
+        "6":"Menu",
+        "7":"Recent Posts",
+        "8":"Blogs Detail"
+     } ,
+     "bestBlogData":{
+        "1":"24 December 2022",
+        "2":"06 January 2023",
+        "3":"06 January 2023"
+    },
+    "bestBlogTitle":{
+        "1":"Ideal Cocktails From Our Barmen For Pefect Mood",
+        "2":"Turkish Soup With Species: Dish Of The Week ",
+        "3":"Elegant Dessert: 10 Tips How To Make It At Home"
+    },
+    "blogTitle":{
+        "1":"Ideal Cocktails From Our Barmen For Pefect Mood",
+        "2":"Turkish Soup With Species: Dish Of The Week ",
+        "3":"Elegant Dessert: 10 Tips How To Make It At Home"
+    },
+    "share":{
+        "1":"Share"
+    },
+    "comment":{
+        "1":"Name",
+        "2":"E-mail",
+        "3":"Your Review",
+        "4":"Comments",
+        "5":"Save my info for the next comment",
+        "6":"Post Comment"
+    },
+    "singleBlog":{
+        "1":"Details"
+    },
+    "shopCartDetails":{
+        "1":"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    "contactCard":{
+        "1":"Phone:",
+        "2":"Email:",
+        "3":"Location:"
+    },
+    "contact":{
+        "1":"Get In Touch",
+        "2":"Our Contact",
+        "3":"Find Us Location",
+        "4":"I agree to the",
+        "5":" Terms & Conditions ",
+        "6":"Privacy Policy",
+        "7":"and" ,
+        "8":"Subject ",
+        "9":"Your message",
+        "10":"Sumbit"
+    },
+    "logIn":{
+        "1":"Username",
+        "2":"Password",
+        "3":"Sumbit",
+        "4":"Remember me",
+        "5":"Sign In",
+        "6":"SignUp",
+        "7":"Coliform"
+    },
+    "blogAddForm":{
+        "1":"Title",
+        "2":"Description",
+        "3":"Image",
+        "4":"Add",
+        "5":"Blog",
+        "6":"Details"
+
+    },
+    "errormsg":{
+        "1":"Name required",
+        "2":"Password required",
+        "3":"Phone required",
+        "4":"Date required",
+        "5":"Clock required",
+        "6":"Email required",
+        "7":"Password does not match with the e-mail address",
+        "8":"UserName does not match with our database",
+        "9":"Please check this box if you want to sign up.",
+        "10":"Invalid Email",
+        "11":"Number required",
+        "12":"Successfuly booking",
+        "13":"Passwords is not same"
+    }
+}

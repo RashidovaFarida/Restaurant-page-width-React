@@ -1,0 +1,1480 @@
+// all 
+.color-b{
+    color:#0E1317 ;
+}
+.w-50{
+    width: 50% ;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.w-100{
+    width: 100%;
+}
+
+.h-50{
+    height: 50vh ;
+}
+.h-auto{
+    height: auto;
+}
+.w-auto{
+    width: auto;
+}
+.h-100{
+    height: 100vh  ;
+}
+
+.h-60{
+    height: 60vh;
+}
+.position-a{
+  position: absolute ;
+
+}
+.position-r{
+    position: relative;
+
+}
+.color-main2{
+    color: #C59D5F !important;
+}
+.bg-gl{
+    background-color: #151B20;
+}
+.bg-main2{
+    background-color: #C59D5F;
+}
+
+// Home Section 1
+.SecHom1{
+    height: 88vh;
+    background-image: url('../img/home/banner-bg-1.png');
+    background-size: cover;
+    
+    
+    
+}
+
+.banner1{
+    top: 10rem ;
+    left: 5%;
+    animation:  AniBanner1 4s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.banner2{
+    bottom: -3.9vh !important;
+    left: 5%;
+    animation:  AniBanner2 4s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.banner3{
+    bottom: 5rem ;
+    right: 46%;
+    animation: AniBanner3 10s ;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
+}
+.banner4{
+    top: 8rem ;
+    left: 38%;
+    animation: AniBanner4 4s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    
+}
+.banner5{
+    top: 5rem ;
+    right: 0;
+    
+}
+#banner6{
+    position: relative;
+    width: 26rem ;
+    height: auto;
+    margin-left: 10.5%;
+    padding-top: 16%;
+    transform: rotate(2deg);
+}
+.textHomeSec1{
+    p:first-child{
+    color: #9b8055;
+    font-weight: bold;
+    }
+    h1{
+        color: #fff;
+    }
+}
+
+.grey{
+    color: rgb(175, 175, 175);
+}
+.btnRead{
+    width:25%;
+    height: 6vh;
+    background-color: #C59D5F;
+    border: 0;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+    &:hover{
+        box-shadow: 2px 2px 2px 2px #4c402c inset;
+        color: rgb(233, 233, 233);
+    }
+}
+
+
+//HOME SECTION 2 -Dicover Area
+.color-w{
+    color: #fff;
+}
+.color-g{
+    color: #A2AFBA;
+}
+.discover-area{
+    height: auto;
+    background-color: #0e1317;
+    overflow-x:hidden !important;
+    .card{
+        border: none;
+        background-color: #0e1317;
+        transition: all 1s;
+        &:hover{
+            transition: all 1s ;
+            transform: translateY(-1rem);
+        }
+        &:hover button,
+        &:hover h5{
+            color: #C59D5F;
+            transition: all 0.5s;
+        }
+        &:hover button{
+            
+            border-bottom: 1px solid #C59D5F ;
+           
+        }
+        img{
+            width: 5rem;
+            height: auto;
+            
+        }
+        .BtnDiscover{
+            position: relative;
+            font-size: 14px;
+            border-radius: 0 !important;
+            border-bottom: 1px solid #A2AFBA ;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+// HOME SECTION 3 -About us
+.about-us{
+    background-color: #151b20; 
+    
+    .homeSec3Img1{
+        position: relative;
+        width: 30rem;
+        top: -3rem;
+    }
+}
+
+.reserve1{
+    top: 4rem;
+    left: 40%;
+    animation: AniBanner4 5s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.reserve2{
+    width: 5rem;
+    top: 28rem;
+    left: 40%;
+    animation:reverse2  linear 5s infinite alternate;
+}
+.reserve3{
+    top: 12rem;
+    left: 45%;
+    animation: reverse3 linear 10s infinite alternate;
+}
+.reserve4{
+    width: 5rem;
+    top: 28.3rem;
+    left: -12rem;
+    transform: rotate(90deg);
+
+}
+
+.aboutUsPart2{
+    margin-top: -2rem;
+    font-size: 14px !important;
+}
+.aboutUs-card{
+    .row{
+        .bgcolorHome-aboutUs{
+            background-color: #0E1317;
+        }
+        .card{
+            
+            transition: all 1s;
+            border: 0;
+
+            &:hover{
+                transition: all 1s;
+                transform: translateY(-1rem);
+            }
+            .card-body{
+                .container-card{
+                    padding-right: 30% ;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+// Home Section 4 -Menu Tabs
+.menu-tabs{
+    background-color: #0F1418;
+    .btnMenuTab{
+          
+        button{
+            border: 0;
+            border-radius: 0;
+            width: 6.4rem;
+            &:hover{
+                border-bottom: 1px solid #72481F ;
+            }
+        }
+    }
+}
+.btnWiew{
+    border-radius: 0;
+    &:hover{
+        background-color: #72481F;
+        color: #fff;
+    }
+}
+.menu-tab-card-img{
+    width: 5rem !important;
+    height: auto;
+}
+.menuTabSlider{
+    margin-top: 3% !important;
+   
+   .card{
+       width: 15rem !important;
+       margin-left: 5% !important;
+       background-color: transparent;
+       transition: all 2s;
+        border: 0;
+       &:hover .menuTabAddCart{
+        display: flex;
+        transition: all 2s !important;
+
+
+        
+       }
+       &:hover .card-img-top{
+        filter: brightness(50%);
+       }
+       .menuTabAddCart{
+        position: absolute;
+        width: 6rem ;
+        height: 2rem;
+        display: none;
+        border: 0;
+        margin-top: 6rem;
+        margin-left: 30%;
+        font-size: 16px;
+        padding-top: 1%;
+        padding-left: 6%;
+        background-color: #d2893b;
+        color: #fff;
+        animation: AnimaMenuTabBtn 1s;
+        z-index: 5  ;
+        transition: all 0.1;
+
+        &:hover{
+            background-color: transparent;
+            border: 1px solid ;
+            box-shadow: 2px 1px 2px 3px #31313184;
+            transition: all 0.1;
+        }
+       }
+    }
+
+    .menuTabSiderText{
+        position: relative;
+        width: 12rem;
+        height: 5rem;
+        background-color: #151B20;
+        left: 3.5%;
+        top: -2rem;
+        
+    }
+    .card-img-top{
+        height: 12rem !important;
+    }  
+}
+.activeBtn{
+    color: #ba834b;
+    border-bottom: 1px solid #72481F !important;
+} 
+// Home Section 5
+.odometer-area{
+     height: 50vh;
+    background: #151b20;
+    position: relative;
+    .odometer-2{
+        background-image: url(../img/home/odometer-bg\ \(1\).png);
+        background-size: cover;
+        .container{
+            padding-left: 10%;
+        }
+    }
+}
+// Home Section 6 - testimonials-area
+.testimonials-area{
+    background-color: #0E1317;
+    .slick-prev{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    .slick-next{
+        position: absolute;
+        margin-top: 30%;
+        margin-right: 90%;
+        
+    }
+    .slick-prev:before,
+    .slick-next:before{
+        font-size: 30px !important;
+        color: #1f303e;
+        &:hover{
+            color: #72481F !important;
+        }
+    }
+   .testiImg{
+    width: 5rem;
+    height: auto !important;
+   }
+    
+    .cardSliderTesti{
+        background-color: #151b20;
+    }
+    .testiMonials2{
+        position: absolute;
+        margin-left: 37% !important;
+        margin-bottom: 7rem;
+        height: auto !important;
+    }
+    .testimonial-bg-video-icon{
+        background-image: url('../img/home/testimonials-img-1.webp');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        .playIconBg{
+            width:6rem;
+            height: 6rem;
+            background-color: #fff;
+            transition: all 0.5s;
+            border-radius: 50%;
+            z-index: 2;
+            &:hover{
+                background-color: #efae71;
+                transition: all 0.5s;
+            }
+            &:hover .playIcon {
+                filter: brightness(0) invert(1);
+            }
+            
+        }
+    }
+    .playIconAnimation{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        background-color: transparent;
+        border:  1px solid #fff;
+        animation: playIcon 5s infinite;
+        z-index: 1;
+    }
+    .testimonialsPart1{
+        padding-top: 2rem;
+    }
+}
+
+// PLay video
+.playIconModal{
+    position: fixed;
+    top: 0%;
+    z-index: 8 !important;
+    width: 100%;
+    height: 102vh;
+    background-color: #080808bc;
+    button {
+        font-size: 28px;
+    }
+    .overlay{
+        margin-left: 10rem;
+        width: 70%;
+        height: auto;
+        
+    }
+    .closeVideo{
+        position: fixed;
+        top: 5%;
+        right: 5%;
+    }
+}
+
+// Home Section 7
+.imgPersonalCon{ 
+    &:hover .socialMediaPersonal{
+        display: flex !important;
+        animation: PersonalMedias 1s;
+    }
+    &:hover .socialMediaPersonal a{
+        animation: OpacityAni 1s;
+    }
+}
+
+
+.restaurant-area{
+    background-color: #151B20;
+    .shapePersonal{
+        position: absolute ;
+        margin-top: 25rem !important;
+        z-index: 2;
+        width: 6rem;
+    }
+    .personal{
+        position: relative;
+        z-index: 2;
+
+    }
+    .desingLine{
+        width: 100% ;
+        height: 10rem;
+        background-color:#0E1317;
+        position: absolute;
+        z-index: 1;
+        margin-top: 11rem;
+    }
+    .imgPersonalCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .imgPersonals{
+            width: 20rem;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .textPersonal{
+        position: relative;
+        z-index: 3;
+        width: 20rem;
+        background-color: #0E1317;
+    }
+    .socialMediaPersonal{
+        display: none !important;
+        position: absolute;
+        z-index: 2;
+        width: 3rem;
+        padding: 4px 0;
+        height: 12rem;
+        border-top-left-radius: 5rem;
+        border-top-right-radius: 5rem ;
+        background-color: #0e1317ea;
+        padding-left: 0.5rem;
+        margin-right: 16rem;
+        a{
+            
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background-color: #fbdcbd;
+            color: #72481F;
+            transition: all 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                color: #fbdcbd;
+                transition: all 0.5s;
+                background-color: #72481F;
+            }
+        }
+    }
+}
+
+// Home Secton 8 
+.reserve-area{
+    padding: 2rem 0 0 0;
+    background-color: #0E1317;
+    .container{
+        
+        .book-area-img{
+            padding-top:5rem ;
+        }
+        .reserveShape{
+            position:relative;
+            width: auto;
+            height: 82vh;
+            z-index: 1;
+        }
+        .reserveImg{
+            position:absolute;
+            margin-left: 5rem;
+            width: auto;
+            height: 82vh;
+            z-index: 2;
+        }
+        .book-area-input-2{
+            width: 95%;
+            height: 95vh;
+            background-color: #0E1317;
+            border: 20px solid #151b20;
+            padding-left: 2%;
+            padding-right: 2%;
+            input{
+                background-color: #151b20;
+                
+            }
+            h4{
+                color: #fff;
+            }
+            select{
+                background-color: #151b20;
+            }
+        }
+        .reserve-input{
+            margin-top: 1rem ;
+            padding-left: 1rem;
+            width: 10rem;
+            height: 15rem;
+            input,
+            select{
+                &::placeholder{
+                    color: #dcdbdb ;
+                }
+                border: 0;
+                outline: 0;
+                padding: 5px;
+                width:26rem;
+                height:2.5rem;
+                color: #dcdbdb;
+                background-color: #151B20;
+                
+            }
+        }
+        button {
+            width: 92.2%;
+            height: 8vh;
+            border: 0;
+            background-color: #72481F;
+            transition: all 0.5s;
+            
+                &:hover{
+                    background-color: transparent;
+                    border: 1px solid #fff; 
+                    transition: all 0.5s;
+                }
+            
+        }
+    }
+    .index2{
+        position: relative !important;
+        z-index: 3 !important;
+    }
+}
+// Home Section 9 
+.location-our-restorant{
+    background-color: #0E1317;
+    .location-text{
+        
+        height: 80vh;
+        ul{
+            width: 100%;
+        }
+
+    }  
+    button{
+        &:hover{
+            color: #fff;
+            border: 1px solid #fff;
+        }
+    }
+    .locationUsMap{
+        width: 100%;
+        
+    }
+    .locations{
+        position: absolute ;
+        &:hover{
+            cursor: pointer;
+            &::after{
+            content: url(../img/home/speech-bubble.png);
+            position: absolute;
+            padding-left: 4px ;
+            margin-top: -10px;
+            z-index: 3;
+            }
+           
+        }
+    }
+    .location1{
+        margin-top: 40vh;
+        margin-left:28%;
+        &:hover{
+            &::before{
+                position: absolute;
+                z-index: 4;
+                content: 'PE';
+                font-size: 12px;
+                color: #0E1317;
+                margin-left: 24px;
+                margin-top: -6px;
+            }
+        }
+    }
+    .location2{
+        margin-top: 21vh;
+        margin-left:56%;
+        &:hover{
+            &::before{
+                position: absolute;
+                z-index: 4;
+                content: 'Az';
+                font-size: 12px;
+                color: #0E1317;
+                margin-left: 24px;
+                margin-top: -6px;
+            }
+        }
+    }
+    .location3{
+        margin-top: 17vh;
+        margin-left:61%;
+        &:hover{
+            &::before{
+                position: absolute;
+                z-index: 4;
+                content: 'US';
+                font-size: 12px;
+                color: #0E1317;
+                margin-left: 24px;
+                margin-top: -6px;
+            }
+        }
+    }
+    .location4{
+        margin-top: 16.5vh;
+        margin-left:16%;
+        &:hover{
+            &::before{
+                position: absolute;
+                z-index: 4;
+                content: 'EC';
+                font-size: 12px;
+                color: #0E1317;
+                margin-left: 24px;
+                margin-top: -6px;
+            }
+        }
+    }
+} 
+.home-blog{
+    background-color: #151B20;
+    transition: all 1s;
+    padding-bottom: 2vh;
+    
+   .card{
+    background-color: #0E1317;
+    transition: ease 1s;
+
+    &:hover{
+        transform: translateY(-1vh);
+        transition: all 1s;
+        box-shadow: 2px 5px 5px 2px #0e1317b9;
+    }
+    &:hover .readBtn{
+       color: #72481F;
+       border-bottom: 1px solid #72481F;
+    } 
+    &:hover  #blogImg {
+        transition: ease 1s;
+        transform: scale(1.01) !important;
+    }
+    .card-body{
+        height: auto;
+        border-radius: 2px ;
+        background-color: #0E1317;
+    }
+    .readBtn{
+       color: #b5b5b5 ;
+       border-bottom: 1px solid #b5b5b5;
+       
+    } 
+    p{
+        font-size: 12px;
+    }
+    h6{
+        &:hover{
+            text-decoration:underline;
+            color: #fde6c6;
+        }
+    }
+}
+}
+
+////////////// Media//////////////////////
+.radius-0{
+    border-radius: 0;
+}
+
+@media screen and  (max-width:320px){
+    .SecHom1 {
+        height: auto;
+    }
+    .discover-area {
+        height: auto;
+    }
+    .SecHome3 {
+        height: auto;
+
+    }
+    .odometer-area{
+        height: auto;
+    }
+    .menu-tabs{
+        height: auto;
+    }
+     .MenuTabBtnCon{
+        width: 70%;
+        margin-right: 10%;
+        flex-direction: column !important;
+        button{
+            width: 5rem;
+            padding: 5%;
+            font-size: 10px;
+        }
+     }
+     
+    .slick-prev{
+        margin-left: 2rem !important;
+    }
+    .slick-next{
+        margin-right: 3rem;
+    }
+     .btnWiew{
+            
+            margin-left: 87%; 
+            width: 4rem ;
+            height: 2rem !important;
+     }
+     .homeSec3Img1 {
+        width: 12rem !important;
+       }
+       #banner6{
+        width: 10rem !important;
+       }
+       .testimonials-area{
+        .cardSliderTesti{
+            margin-bottom: 4rem;
+            padding: 1rem;
+        }
+        .testiMonials2{
+            display: none !important;
+        }
+        .slick-prev{
+            position: absolute;
+            margin-top: 11rem !important;
+            margin-left: 1.5rem !important;
+        }
+        .slick-next{
+            position: absolute;
+            margin-top: 11rem !important;
+            margin-left: 4rem !important;
+        }
+        .testiImg{
+            margin-left:2rem ;
+            margin-top: 1rem;
+            width: 4rem;
+            height: 4rem !important;
+        }
+    }
+    .odometer-area {
+        height: auto !important;
+
+        .odometer-2 {
+            height: auto !important;
+        }
+    }
+    //Home section Reverse area
+    .reserve-area .container .reserveShape{
+        height: 34vh;
+    }
+    .reserve-area .container .reserveImg {
+        height: 35vh;
+        margin-left: 2rem;
+    }
+    .banner2 {
+        display: none;
+    }
+    .homeMain{
+        overflow: hidden;
+    }
+    .btnRead{
+        height: auto;
+        width: auto;
+    }
+   // Location
+.location-our-restorant{
+    .map {display: none;}
+  }
+   
+}
+  
+
+@media screen and (max-width:480px) and (min-width:320px){
+    *{
+        overflow: none;
+    }
+    .desingBanner{
+        display: none !important;
+        
+    }
+    .SecHom1{
+        height: auto !important;
+        flex-direction: column-reverse !important;
+        padding-bottom: 1%;
+        .row{
+            padding: 0 2%;
+
+        }
+
+    }
+    #banner6{
+        width: 10rem;
+    }
+    .banner2{
+        display: none;
+    }
+    .btnMenuTab  {
+        width: 79% !important;
+    }
+    .btnRead {
+        width: 40%;
+        height: 12vh;
+    }
+    
+    // Home Section 2 -Discover  Area
+    .about-us .homeSec3Img1{
+        width: 20rem;
+    }
+    .reserve1{
+        top: 1rem;
+        left: 55%;
+    }
+    .reserve3 {
+        display: none;
+    }
+    .reserve2{
+        display: none;
+    }
+    // Home Section 4 - Menu tab 4
+    .menu-tabs{
+        height: auto !important;
+    }
+    .slick-dots{
+        margin-bottom: 10%;
+    }
+    .menuTabSlider{
+        margin-top: 0 ;
+        .card{
+            width: auto !important ;
+            margin: left 10% !important; ;  
+        }
+            .menuTabSiderText{
+            width: 14rem ;
+            left: 3.5% ;
+            
+        }
+        .card-img-top{
+            width: 15rem;
+        }
+       .menuTabAddCart{
+          margin-top: 8rem!important ;
+          margin-left: 37% !important;
+       }
+     }
+     
+     .MenuTabBtnCon{
+        
+        flex-direction: column !important;
+        button{
+            width: 3rem;
+            font-size: 12px;
+        }
+      
+     }
+    .slick-prev{
+        margin-left: 1rem !important;
+    }
+    .slick-next{
+        margin-right: 1rem;
+    }
+     .btnWiew{
+            
+            margin-left: 58%; 
+            width: 5rem !important;
+     }
+     //
+     .testimonials-area{
+        .cardSliderTesti{
+            margin-bottom: 4rem;
+            padding: 1rem10;
+        }
+        .testiMonials2{
+            display: none !important;
+        }
+        .slick-prev{
+            position: absolute;
+            margin-top: 9rem !important;
+            margin-left: 1.5rem !important;
+        }
+        .slick-next{
+            position: absolute;
+            margin-top: 9rem !important;
+            margin-left: 4rem !important;
+        }
+        .testiImg{
+            margin-top: 1rem;
+            width: 4rem;
+            height: 4rem !important;
+        }
+    }
+    .odometer-area {
+        height: auto !important;
+
+        .odometer-2 {
+            height: auto !important;
+        }
+    }
+    
+    .reserve-area .container .reserveShape{
+        height: 45%;
+    }
+    .reserve-area .container .reserveImg{
+        height: 38vh !important;
+        margin-left: 0;
+        
+    }
+  
+    // Location
+    
+    
+    
+    .reserve-area .container .book-area-img {
+        align-items: end;
+        height: auto;
+    }
+    .location-our-restorant{
+        .map {display: none;}
+      }
+    .sliderPersonalCard{
+        display: flex !important;
+        justify-content: center;
+    }
+    element.style {
+        outline: none;
+        width: 516px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    .banner4 {
+        left: 15%;
+        top: 35rem;}
+
+    .banner2 {
+        display: none;
+        }
+    .SecHom1{
+        height: auto;
+        
+    }
+    .btnRead{
+        height: 12vh;
+    }
+    #banner6{
+        width: 22rem;
+        margin-left: 19%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    //Home Section 3 -About us
+    .about-us .homeSec3Img1{
+        width: 23rem;
+    }
+    .menu-tabs{
+        height: auto !important;
+    }
+    .slick-dots{
+            margin-bottom: 2rem;
+    }
+    .slick-prev{
+        margin-left: 1rem !important;
+    }
+    .slick-next{
+        margin-right: 1rem;
+    }
+    .testimonials-area{
+        .cardSliderTesti{
+            margin-bottom: 4rem;
+        }
+        
+        .slick-prev{
+            position: absolute;
+            margin-top: 7rem !important;
+            margin-left: 2rem !important;
+        }
+        .slick-next{
+            position: absolute;
+            margin-top: 7rem !important;
+            margin-left: 2rem !important;
+        }
+    }
+    .odometer-area {
+        height: auto !important;
+
+        .odometer-2 {
+            height: auto !important;
+            padding: 3rem  1rem 3rem 1rem!important;
+        }
+    }
+  // home section 8
+  
+  .reserve-area .container .reserveShape{
+    height: 65%;
+}
+.reserve-area .container .reserveImg{
+    height: 50vh;
+}
+
+// Location
+
+
+
+.reserve-area .container .book-area-img {
+    align-items: end;
+    height: auto;
+}
+
+
+  .sliderPersonalCard{
+    display: flex !important;
+    justify-content: center;
+  }
+// returant area
+.location-our-restorant{
+    .map {display: none;}
+  }
+  // Location
+}
+
+@media screen and (max-width:992px)   and (min-width: 769px){
+    
+    .SecHom1{
+        height: auto !important;
+    }
+    .btnRead{
+        width: 8rem;
+        height: 10vh;
+        margin-bottom: 3%;
+        
+    }
+    .banner2{
+        display: none;
+    }
+    #banner6{
+        padding: 0 !important;
+        height: 17rem;
+        width: 15rem;
+        margin : 30% 0 0 38% !important
+    }
+
+    //Home Section 3- About us 
+    .about-us .homeSec3Img1 {
+        margin-left: 25% !important;
+    }
+    .reserve1{
+        top: 1rem;
+        left: 10%;
+    }
+    .menu-tabs{
+        height: auto !important;
+    }
+    .slick-dots{
+            margin-bottom: 2rem;
+    }
+    .testimonials-area{
+        height: auto !important;
+        .testimonial-bg-video-icon{
+            margin-left: 3%;
+            height: 20rem;
+            margin-top: 5%;
+        }
+    }
+    .playIconModal{
+        button {
+            font-size: 26px;
+        }
+        .overlay{
+            margin-left: 8rem;
+            
+        }
+       
+    }
+    //
+    .testimonials-area{
+        .cardSliderTesti{
+            margin-bottom: 4rem;
+            padding: 1rem10;
+        }
+        .testiMonials2{
+            display: none !important;
+        }
+        .slick-prev{
+            position: absolute;
+            margin-top: 8rem !important;
+            margin-left: 1.5rem !important;
+        }
+        .slick-next{
+            position: absolute;
+            margin-top: 8rem !important;
+            margin-left: 4rem !important;
+        }
+        .testiImg{
+            margin-top: 1rem;
+            width: 4rem;
+            height: 4rem !important;
+        }
+    }
+    .odometer-area {
+        height: auto !important;
+
+        .odometer-2 {
+            height: auto !important;
+            padding: 3rem  1rem 3rem 1rem!important;
+
+        }
+    }
+    // home section 8
+    .reserve-area .container .reserveShape{
+        margin-left: 5rem;
+        height: 90%;
+    }
+    .reserve-area .container .reserveImg{
+        height: 80vh;
+    }
+    
+    // Location
+    
+    
+    
+    .reserve-area .container .book-area-img {
+        align-items: end;
+        height: auto;
+    }
+    
+    
+      .sliderPersonalCard{
+        display: flex !important;
+        justify-content: center;
+      }
+.location-our-restorant{
+    .map {display: none;}
+  }
+  .navContainer{
+    margin-left: 0%!important;
+    
+}
+}
+@media  screen and (min-width: 992px) and (max-width:1200px) {
+    
+    .SecHom1{
+        height: auto !important;
+    }
+    .btnRead{
+        width: 8rem;
+        height: 10vh;
+        
+        
+    }
+    #banner6{
+        width: 22rem;
+    }
+    // Home Section 3 - About us 
+    
+
+.about-us .homeSec3Img1 {
+    margin-left: 30% !important;
+}
+//  .testimonials-area
+.testimonials-area{
+    height: auto !important;
+    
+    .cardSliderTesti{
+        margin-bottom: 4rem;
+        padding: 1rem;
+    }
+    .testimonial-bg-video-icon{
+        height: 50vh !important;
+    }
+    .testimonialsPart2{
+        padding-left: 5rem !important;
+    }
+    .playIconBg{
+        margin-right: 15rem !important;
+    }
+    .playIconAnimation{
+        margin-right: 15rem !important;
+    }
+    .testiMonials2{
+        display: none !important;
+    }
+    .slick-prev{
+        position: absolute;
+        margin-top: 7rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .slick-next{
+        position: absolute;
+        margin-top: 7rem !important;
+        margin-left: 4rem !important;
+    }
+    .testiImg{
+        margin-top: 1rem;
+        width: 4rem;
+        height: 4rem !important;
+    }
+}
+.odometer-area {
+    height: auto !important;
+
+    .odometer-2 {
+        height: auto !important;
+        padding: 3rem  1rem 3rem 1rem!important;
+
+    }
+}
+// home section 8
+.reserve-area .container .reserveShape{
+    width:80% ;
+    height: auto;
+    margin-left: 5rem;
+}
+.reserve-area .container .reserveImg{
+    height: 100vh;
+}
+
+// Location
+
+
+
+.reserve-area .container .book-area-img {
+    align-items: end;
+    height: auto;
+}
+
+
+  .sliderPersonalCard{
+    display: flex !important;
+    justify-content: center;
+  }
+
+// Location
+.location-our-restorant{
+  .map {display: none;}
+}
+
+
+}
+
+                //______________HOME SECTION 1 KEYFRAMES _______________//
+
+@keyframes AniBanner2 {
+    from{
+        left: 5%;
+    }
+    to{
+        left: 10%;
+    }
+}
+@keyframes AniBanner1 {
+   from{
+    left: 5%;
+   }
+   to{
+    left: 10%;
+   }
+}
+@keyframes AniBanner4 {
+    from{
+     
+     transform: rotate(0);
+
+    }
+    to{
+     
+     transform: rotate(360deg);
+     
+    }
+ }
+ @keyframes AniBanner3 {
+    0%{
+        bottom: 5rem ;
+        right: 46%; ;
+        transform: rotate(0);
+        z-index: 5;
+
+    }
+    25%{
+        bottom: 2rem ;
+        right: 50%;
+        transform: rotate(90deg);
+     
+    }
+    50%{
+        bottom: 0rem ;
+        right: 45%;
+        transform: rotate(180deg);
+        
+    }
+    75%{
+        bottom: 3rem ;
+        right: 55%;
+        transform: rotate(270deg);
+        
+    }
+    100%{
+        bottom: 5rem ;
+        right: 46%;
+        transform: rotate(360deg);
+        
+    }
+ }
+                //______________HOME SECTION 2  KEYFRAMES (Discover Area) _______________//
+@keyframes reverse2 {
+    from{
+        left: 40%;
+    }
+    to{
+        left: 30%;
+    }
+}
+@keyframes reverse3 {
+    0%{
+        top: 12rem;
+        left: 45%;
+        transform: rotate(0);
+
+    }
+    25%{
+        top: 15rem;
+        left: 65%;
+        transform: rotate(90deg);
+     
+    }
+    50%{
+        top: 20rem;
+        left: 45%;
+        transform: rotate(180deg);
+        
+    }
+    75%{
+        top: 15rem;
+        left: 55%;
+        transform: rotate(270deg);
+        
+    }
+    100%{
+        top: 12rem;
+        left: 45%;
+        transform: rotate(360deg);
+        
+    }
+}
+
+
+//______________HOME SECTION 4  KEYFRAMES (Menu Tab) _______________//
+
+
+@keyframes AnimaMenuTabBtn {
+    from {
+        margin-left: 35%;
+        width: 5rem ;
+        height: 2rem;
+        font-size: 16px;
+    }
+    to{
+        width: 6rem ;
+        height: 2rem;
+    }
+}
+// Play Icon in Home section 6
+@keyframes playIcon {
+    0%{
+        width: 12rem;
+        height: 12rem;
+    }
+    50%{
+        width: 14rem;
+        height: 14rem;
+        opacity: 0.5;
+    }
+    100%{
+        width: 16rem;
+        height: 16rem;
+        opacity: 0;
+    }
+
+}
+// Home Section 7 Social Media
+ @keyframes PersonalMedias {
+    from{
+        margin-top: 15rem;
+        height: 0;
+        opacity: 0;
+    }
+    to{
+        height: 12rem;
+        opacity: 1;
+    }
+    
+ }
+ @keyframes OpacityAni {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+ }

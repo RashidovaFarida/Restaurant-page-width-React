@@ -1,0 +1,38 @@
+.singleBlog{
+    .home-blog{
+        background-color: #fff;
+    img{
+        width: 100%;
+        
+    }
+    .card{
+        border: 0.5px solid rgba(186, 186, 186, 0.624);
+    }
+    .card-body{
+        padding: 0 !important;
+        background-color: #fff;
+    }
+    h5{
+        a{
+            &:hover{
+                color: #102335;
+                }
+        }
+    }
+    .readBtn{
+        color: #15212c;
+    }
+    }
+    #blogImg{
+        border-top-left-radius:5px ;
+        border-top-right-radius:5px ;
+    }
+
+}
+// #readMore{
+//   border-bottom: 1px solid #26323e;
+//   &:hover{
+// color
+//    border-bottom: 1px solid saddlebrown;
+//   }
+// }
