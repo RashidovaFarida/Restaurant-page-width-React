@@ -3,6 +3,8 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 @import url(https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap);
+
+
 *{
     margin: 0;
     padding: 0;
@@ -46,3 +48,8 @@ a{
 @import 'signUp';
 @import 'blogTable';
 @import 'search';
+@import 'productImg';
+@import 'pay';
+@import 'notFound';
+@import 'scflyPay';
+@import 'wishTitle';

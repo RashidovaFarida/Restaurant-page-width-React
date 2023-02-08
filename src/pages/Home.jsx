@@ -73,7 +73,7 @@ const [modal, setModal]= useState(false);
         <p>{t('homeSec1.1')}</p>
         <h1>{t('homeSec1.2')}</h1>
         <p className='grey pt-3'>{t('homeSec1.3')}</p>
-        <motion.button whileFocus={{ scale: 1.2 }} className='btnRead btn mt-5 '>{t('homeSec1.4')}</motion.button>
+        <Link to='/about' whilefocus={{ scale: 1.2 }} className='btnRead btn mt-5 '>{t('homeSec1.4')}</Link>
       </div>
       <div className='col-sm-12 col-md-6 col-xl-6 col-xxl-6'>
         <img src={bannerOne}  id="banner6" alt="" />

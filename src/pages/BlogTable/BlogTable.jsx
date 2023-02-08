@@ -2,10 +2,46 @@ import React from 'react'
 import { connect } from 'react-redux'
 import BookTableItem from './BlogTableItem'
 import { Link } from 'react-router-dom'
-
-
+import { t } from 'i18next'
+import Typewriter from 'typewriter-effect'
 const BlogTable = (props) => {
+  const handleClick=()=>{
+    localStorage.clear();
+    window.location.reload();
+  }
+  
   return (
+    <>
+   
+
+    <div>
+       <button onClick={handleClick} className='sign-out'><i class="fa-solid fa-right-from-bracket"></i></button>
+    <section className='blogTaple  d-flex align-items-center justify-content-evenly flex-column '>
+    <div>
+      <h2 className='color-w ps-5'>{props.name}<h2/> 
+      <h5> 
+        <Typewriter 
+       options={
+         {
+           autoStart:true,
+           loop: true,
+           delay:50,
+           strings:[
+             "wellcome",
+             ,
+             
+           ],
+         }
+       }
+       /></h5>
+       </h2>
+
+      <div className='d-flex ps-5 '>
+        <Link to='/'>{t(`aboutFirst.2`)} &nbsp;  </Link>
+        <p className='color-w'> / Profil</p>
+      </div>
+    </div>
+  </section>
     <section className='bookTable pt-4'>
         <div className="container">
         <Link to='/add' className='btn addBtn '> Add</Link>
@@ -28,6 +64,8 @@ const BlogTable = (props) => {
         </div>
 
     </section>
+    </div>
+    </>
   )
 }
 

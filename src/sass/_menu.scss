@@ -57,16 +57,10 @@
          left: 14%;
       }
       .content{
-         margin-top: 55%;
+         margin-top: 65%;
          display: none;
          color: #0E1317;
          transition: all 0.5s;
-         p{
-            font-size: 14px;
-            color: rgb(83, 80, 80);
-            transition: all 0.5s;
-
-         }
          i{
             font-weight: 600;
             color: #0E1317;
@@ -93,6 +87,7 @@
          background-color: #995D22;
          margin-top: -2%;
          color: #fff;
+         width: 6rem;
          transition: 1s;
          height: auto;
 
@@ -171,6 +166,19 @@
 
 // Animation 
 
+.cardMain {
+   .like{
+      font-size: 22px;
+      color: #0E1317;
+      &:hover{
+         color: #995D22;
+      }
+
+   }
+   .details{
+      font-size: 20px;
+   }
+}
 @keyframes CardAni {
   from{
    width: 100%;

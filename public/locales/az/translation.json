@@ -8,7 +8,7 @@
         "5": "Blog",
         "6": "Əlaqə",
         "7": "Rezervasiya",
-        "8":"Dashboard"
+        "8":"Sign In / Up"
     },
     "homeSec1":{
         "1":"Restoranımıza xoş gəlmisiniz",
@@ -260,7 +260,7 @@
         "6":"Sil",
         "7":"Cəmi",
         "8":" Hamısını təmizlə",
-        "9":"Ödə"
+        "9":"Səbəti bitir"
     },
     "BlogDetailsItem":{
         "1":"Həştəq",

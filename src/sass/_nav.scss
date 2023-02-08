@@ -16,6 +16,9 @@
 .navbar.sticky .logo2{
     display: flex;
 }
+.navbar-nav .nav-link.active{
+    color: #995d22;
+}
 .navbar.sticky .logo1{
     display: none;
 }
@@ -33,6 +36,9 @@
     }
 }
 .navbar.sticky .multiBtn{
+    color: #000;
+}
+.navbar.sticky .like{
     color: #000;
 }
 nav {
@@ -104,6 +110,12 @@ nav {
     &:hover{
         color: #995d22;
     }
+}
+.like{
+    border: none;
+    border-radius: 0;
+    font-size: 22px;
+    color: #fff;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     .navbar-expand-lg .navbar-collapse {

@@ -71,7 +71,7 @@ export const Contact = () => {
       </div>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.2624592479683!2d-73.93527536277062!3d40.646144541768756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ca10f4880bf%3A0xd4444480783bc914!2zNDU3OCBCZXZlcmxleSBSZCwgQnJvb2tseW4sIE5ZIDExMjAzLCBBbWVyaWthIEJpcmzJmcWfbWnFnyDFnnRhdGxhcsSx!5e0!3m2!1saz!2s!4v1673632469310!5m2!1saz!2s" 
-   width='1347' height='400' referrerpolicy="no-referrer-when-downgrade"></iframe>
+   width='1347' height='400' referrerPolicy="no-referrer-when-downgrade"></iframe>
     </div>
   )
 }

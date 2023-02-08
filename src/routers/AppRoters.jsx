@@ -21,6 +21,12 @@ import EditBlog  from '../pages/BlogForms/EditBlog';
 import BlogDetails from '../pages/BlogDetails';
 import SignIn from '../pages/authentication/SignIn';
 import SignUp from '../pages/authentication/SignUp';
+import ProductDetails from '../pages/ProductDetails';
+import Wishlist from '../pages/WishLisht';
+import Pay from '../pages/Pay';
+import NotFound from '../pages/NotFound';
+import PaymentScfly from '../pages/PaymentScfly';
+import UserPanel from '../pages/BlogTable/UserPanel';
 const AppRoters = ()=> {
   const [mode, setMode] = useState('light');
 
@@ -37,19 +43,24 @@ const AppRoters = ()=> {
         <Route path='/' exact component={Home} ></Route>
         <Route path='/about' component={About}></Route>
         <Route path='/menu' component={Menu}></Route>
+        <Route path='/comments/:id' component={ProductDetails}></Route>
         <Route path='/rezerv' component={Rezervation}></Route>
         <Route exact path='/blog' component={Blog}></Route>
         <Route path='/blog/:id' component={BlogDetails}></Route>
-        <Route path='/shop' component={Shop}></Route>
+        <Route path='/onlineshop' component={Shop}></Route>
         <Route path='/contact' component={Contact}></Route>
         <Route path='/cart' component={Cart}></Route>
-        <Route path='/tableBlg' component={BlogTable}></Route>
+        <Route path='/tableBlg' component={UserPanel}></Route>
         <Route path='/add' component={AddBlog}></Route>
         <Route path='/edit/:id' component={EditBlog}></Route>
         <Route path='/signIn' component={SignIn}></Route>
         <Route path='/signUp' component={SignUp}></Route>
+        <Route path='/pay' component={Pay}></Route>
+        <Route path='/wishlist' component={Wishlist}></Route>
+        <Route path='/payment'  component={PaymentScfly}></Route>
         <Route path='/menu/:keyword' component={Menu}></Route>
-      </ Switch>
+        <Route  component={NotFound}></Route>
+        </ Switch>
      <Footer />
     
      </CartProvider>  

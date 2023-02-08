@@ -6,9 +6,7 @@ import {useTranslation} from "react-i18next";
 import '../Languages/i18n'
 import MultiLangBtn from './MultiLangBtn';
 import { useCart } from 'react-use-cart';
-import { Search } from './Search';
 import menuData from '../data/menuData.json'
-import { Route } from 'react-router-dom';
 
 
 
@@ -28,8 +26,7 @@ import { Route } from 'react-router-dom';
       
       // Add cart
       const {totalItems }=useCart()
-      
-      const[search , setSearch]=useState(false)
+  
         return (
           <>
         <nav className={`${sticky ? "navbar sticky " : "navbar "} mainNav navbar-expand-lg ` }>
@@ -53,7 +50,7 @@ import { Route } from 'react-router-dom';
                 < NavLink  id='nav-link'   className="color-w nav-link"  to="/menu">{t('nav.3')}</NavLink>
               </li>
               <li className='nav-item navItem'>
-                < NavLink id='nav-link'   className="nav-link"  to="/shop">{t('nav.4')}</NavLink>
+                < NavLink id='nav-link'   className="nav-link"  to="/onlineshop">{t('nav.4')}</NavLink>
               </li>
               <li className='nav-item navItem'>
                 < NavLink id='nav-link' className="nav-link"  to="/blog">{t('nav.5')}</NavLink>
@@ -66,15 +63,17 @@ import { Route } from 'react-router-dom';
                 < NavLink  id='nav-link' className="nav-link"  to="/contact">{t('nav.6')}</NavLink>
               </li>
              
-           
              
               <li className='nav-item navItem'>
               <div className='cartItem d-flex align-items-center justify-content-center'>
                   <span >{totalItems}</span>
                 </div>
-              <NavLink  to='cart' id='nav-link'  className="nav-link" >
+              <NavLink  to='/cart' id='nav-link'  className="nav-link" >
               <i className="fa-sharp fa-solid fa-cart-shopping "></i>
               </NavLink>
+              </li>
+              <li className='nav-item pe-4'>
+              <NavLink to='/wishlist' className='btn nav-link like'><i class="fa-regular fa-heart"></i></NavLink>
               </li>
               <li className='nav-item navItem'>
               <NavLink to='/signIn' className='btn nav-link bookBtn'>{t('nav.8')}</NavLink>

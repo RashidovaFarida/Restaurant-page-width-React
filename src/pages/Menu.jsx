@@ -9,8 +9,10 @@ import ReactPaginate from 'react-paginate';
 import dp from '../data/menuData.json'
 // import  Search  from '../components/Search';
 const Menu = () => {
+
   let comments= dp.comments
-  const [items, setItems] = useState(comments);
+  //validation 
+  const [items, setItems] = useState(comments.sort());
   const [pageCount , setPageCount]=useState(0)
 useEffect (() => {
    const getComments = async () => {
@@ -81,14 +83,21 @@ const handlePageClick = async(data) =>{
   const activeButton = (index) =>{
   setAvtiveBtn(index);
   }
-  const handleSearch=(e)=>{
-    if (e.target.value ==''){
-      setItems(items)
-      return
-    }
-   const searchResult=  items.filter(item => item.title.toLowerCase().startsWith(e.target.value.toLowerCase()))
-   setItems(searchResult)
-  }
+  // const handleSearch=(e)=>{
+  //   if (e.target.value ==''){
+  //     setItems(items)
+  //     return
+  //   }
+  //  const searchResult=  items.filter(item => item.title.toLowerCase().startsWith(e.target.value.toLowerCase()))
+  //  setItems(searchResult)
+  // }
+  const [searchTerm,setSearchTerm]=useState('')
+
+  //////////////////////////////////////////////
+
+  const addToWishlist = (item) => {
+    localStorage.setItem('wishlist', JSON.stringify([...JSON.parse(localStorage.getItem('wishlist') || '[]'), item]));
+  };
 
 return (
 // Menu Section First
@@ -126,22 +135,37 @@ return (
   <div className='col-md-6  pt-5'>
     {/* <Search onChange={(e)=>{setQuery(e.targe.value)}}/> */}
     <div className='searchMain d-flex align-items-center justify-content-end'>
-        <input className='search' type="text"  onChange={handleSearch}/>
-        <button className='btn searchBtn '>Search</button>
+        <input className='search' type="text"  placeholder='Search here...' onChange={(event)=>{
+          setSearchTerm(event.target.value)
+        }}/>
+        <button className='btn searchBtn '><i className="fa-solid fa-magnifying-glass"></i></button>
     </div>
   </div>
       </div>
       <div className='row'>
         <AnimatePresence>
-          {items.map((fd)=>(
+          {items.filter((item)=>{
+            if(searchTerm ===''){
+              return item;
+            }
+            else if ( item.title.toLowerCase().includes(searchTerm.toLowerCase())){
+              return item;
+            }
+          }).map((item)=>(
           <Card 
-          title={fd.id} 
-          img={fd.img} 
-          key={fd.id} 
-          id={fd.id}
-          price={fd.price}
+          title={item.id} 
+          img={item.img} 
+          key={item.id} 
+          id={item.id}
+          price={item.price}
           price1={t(`filterPrice.2`)}
-          ing={t(`filterPrice.1`)} menu={fd} />
+          ing={t(`filterPrice.1`)} 
+          menu={item} 
+          item={item}
+          
+          
+          
+          />
           ))}
         </AnimatePresence>
       </div>
@@ -170,4 +194,4 @@ return (
 )
 }
 
-export default Menu
+export default Menu;
