@@ -27,6 +27,28 @@ a {
   height: auto;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #1f2429 #7a7d7f;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #7a7d7f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1f2429;
+  border-radius: 10px;
+  border: 3px solid #1f2429;
+}
+
 .navbar.sticky {
   background-color: #fff;
   color: #fff;
@@ -966,9 +988,6 @@ nav {
   }
 }
 @media screen and (max-width: 480px) and (min-width: 320px) {
-  * {
-    overflow: none;
-  }
   .desingBanner {
     display: none !important;
   }
@@ -979,6 +998,9 @@ nav {
   }
   .SecHom1 .row {
     padding: 0 2%;
+  }
+  .SecHom1 .btnRead {
+    height: 5vh !important;
   }
   #banner6 {
     width: 10rem;
@@ -1953,6 +1975,21 @@ body.dark .bookTable th {
 body.dark #root {
   background-color: #0E1317;
 }
+body.dark td, body.dark th {
+  color: #fff;
+}
+body.dark .wishlist a {
+  color: #995D22;
+}
+body.dark .wrapper {
+  background-color: #141A1F;
+}
+body.dark .wrapper input {
+  background-color: #222c34;
+}
+body.dark .wrapper h2 {
+  background-color: #222c34;
+}
 
 .menuFirst .menuBg {
   background: url("../img/about/page-banner-bg.webp");
@@ -2124,44 +2161,33 @@ body.dark #root {
   .menuSecCard .btnContan button {
     font-size: 7px;
   }
-}
-@media screen and (max-width: 480px) and (min-width: 320px) {
-  .menuMain {
-    overflow: hidden;
-  }
   .menuSecCard .row img {
-    height: 35vh;
+    height: 22vh;
   }
   .menuSecCard .row .image {
-    height: 35vh;
+    height: 22vh;
   }
-  .menuSecCard .row .card {
-    height: 40vh;
-    display: flex;
-    justify-content: flex-end;
+  .searchBtn {
+    right: 1.5rem !important;
   }
-  .menuSecCard .row .card:hover {
-    height: auto;
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .menuSecCard .row img {
+    height: 25vh;
   }
-  .menuSecCard .btnContan button {
-    display: flex;
-    padding: 2%;
-    font-size: 12px;
+  .menuSecCard .row .image {
+    height: 25vh;
   }
-  .searchMain input {
-    height: 5vh;
-    width: 100%;
-  }
-  .searchMain button {
-    right: 2rem;
+  .searchBtn {
+    right: 1.5rem !important;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 481px) {
   .menuSecCard .row img {
-    height: 40vh;
+    height: 30vh;
   }
   .menuSecCard .row .image {
-    height: 35vh;
+    height: 30vh;
   }
   .menuSecCard .row .card {
     height: 40vh;
@@ -2178,13 +2204,21 @@ body.dark #root {
   .searchMain button {
     right: 2rem;
   }
+  .menuSecCard .btnContan button {
+    display: flex;
+    font-size: 14px;
+    padding: 2%;
+  }
 }
 @media screen and (max-width: 992px) and (min-width: 769px) {
   .menuSecCard .row img {
-    height: 18vh;
+    height: 14vh;
   }
   .menuSecCard .row .image {
-    height: 18vh;
+    height: 14vh;
+  }
+  .menuSecCard .btnContan button {
+    font-size: 12px;
   }
   .menuSecCard .row .card {
     height: 22vh;
@@ -3089,14 +3123,10 @@ body.dark #root {
 }
 
 .sign-out {
-  width: 5rem;
   border: none;
   background-color: transparent;
   color: white;
   font-size: 28px;
-  position: absolute;
-  right: 5px;
-  margin-top: 5px;
 }
 
 .backBtn {
@@ -3284,10 +3314,13 @@ body.dark #root {
   margin: 25px auto 0;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
+.wrapper .bookBtn {
+  background-color: #9f7d4a;
+}
 
 .wrapper h2 {
   background-color: #fcfcfc;
-  color: #f19c52;
+  color: #9f7d4a;
   font-size: 24px;
   padding: 10px;
   margin-bottom: 20px;
@@ -3297,7 +3330,7 @@ body.dark #root {
 
 h4 {
   padding-bottom: 5px;
-  color: #f19c52;
+  color: #9f7d4a;
 }
 
 .input-group {
@@ -3336,8 +3369,8 @@ h4 {
 }
 
 .name:focus, .dob:focus {
-  box-shadow: 0 0 2px 1px rgba(241, 156, 82, 0.5019607843);
-  border: 1px solid #f19c52;
+  box-shadow: 0 0 2px 1px rgba(159, 125, 74, 0.5019607843);
+  border: 1px solid #9f7d4a;
 }
 
 .input-box .icon {
@@ -3360,9 +3393,9 @@ h4 {
 }
 
 .name:focus + .icon {
-  background-color: #f19c52;
+  background-color: #9f7d4a;
   color: #fff;
-  border-right: 1px solid #f19c52;
+  border-right: 1px solid #9f7d4a;
   border: none;
   transition: 1s;
 }
@@ -3404,7 +3437,7 @@ h4 {
 }
 
 .radio:checked + label {
-  background-color: #f19c52;
+  background-color: #9f7d4a;
   color: #fff;
   transition: 0.5s;
 }
@@ -3424,7 +3457,7 @@ h4 {
 }
 
 .input-box select:focus {
-  background-color: #f19c52;
+  background-color: #9f7d4a;
   color: #fff;
   text-align: center;
 }
@@ -3433,7 +3466,7 @@ h4 {
   width: 100%;
   background: transparent;
   border: none;
-  background: #f19c52;
+  background: #9f7d4a;
   color: #fff;
   padding: 15px;
   border-radius: 4px;
@@ -3446,6 +3479,26 @@ h4 {
   background: #b16405;
 }
 
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .wrapper {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .wrapper {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .wrapper {
+    width: 380px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .wrapper {
+    width: 380px;
+  }
+}
 #notfound {
   position: relative;
   height: 100vh;
@@ -3540,17 +3593,20 @@ h4 {
     font-size: 14px;
   }
 }
-.payment {
-  border: 1px solid #f2f2f2;
-  height: 50vh;
-  border-radius: 20px;
-  background: #fff;
+.modal-body {
+  padding: 0 !important;
+  width: 100% !important;
 }
 
 .payment_header {
   background: rgb(141, 94, 24);
+  width: 100% !important;
   padding: 20px;
   border-radius: 20px 20px 0px 0px;
+}
+
+.wrapper .modal-content {
+  border-radius: 22px;
 }
 
 .check {
@@ -3599,4 +3655,35 @@ h4 {
 }
 .wishTitle:hover {
   color: #5b3d26;
+}
+
+@media screen and (max-width: 480px) and (min-width: 290px) {
+  .wishlist {
+    overflow: hidden !important;
+  }
+  .wishlist {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .wishlist img {
+    width: 4rem;
+  }
+  .wishlist .bookBtn {
+    width: 3rem;
+  }
+  .wishlist th,
+  .wishlist td, .wishlist a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  * {
+    overflow: none !important;
+  }
+  .wishlist img {
+    width: 5rem;
+  }
+  .wishlist .bookBtn {
+    width: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,17 +1,30 @@
-.payment
-	{
-        
-		border:1px solid #f2f2f2;
-		height:50vh;
-        border-radius:20px;
-        background:#fff;
-	}
+.modal-body{
+    padding: 0 !important;
+    width: 100% !important;
+    
+    
+}
+// .payment
+	// {
+    //     width: 100% !important;
+	// 	border:1px solid #f2f2f2;
+	// 	height:auto;
+    //     border-radius:20px;
+    //     background:#fff;
+	// }
    .payment_header
    {
 	   background:rgb(141, 94, 24);
-	   padding:20px;
+	   width: 100% !important;
+       padding: 20px;
        border-radius:20px 20px 0px 0px;
 	   
+   }
+   .wrapper{
+
+       .modal-content{
+        border-radius: 22px;
+       }
    }
    
    .check

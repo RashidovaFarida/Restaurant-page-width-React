@@ -336,6 +336,25 @@ body.dark{
             background-color: #0E1317;
             
         }
+        //wishlist 
+       td,th{
+        color: #fff;
+       }
+       .wishlist{
+        a{
+            color: #995D22;
+        }
+       } 
        
+       //login
+       .wrapper{
+        background-color: #141A1F;
+        input{
+            background-color: #222c34;
+        }
+        h2{
+            background-color:  #222c34;
+        }
+       }
     }
    

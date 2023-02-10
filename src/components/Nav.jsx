@@ -26,7 +26,15 @@ import menuData from '../data/menuData.json'
       
       // Add cart
       const {totalItems }=useCart()
-  
+     //LogOut 
+        const handleClick=()=>{
+         localStorage.clear();
+      window.location.reload();
+    }
+    // User Name
+    const getEmail=localStorage.getItem('username')
+    const getPassword=localStorage.getItem('password')
+    const getName=localStorage.getItem('name')
         return (
           <>
         <nav className={`${sticky ? "navbar sticky " : "navbar "} mainNav navbar-expand-lg ` }>
@@ -63,7 +71,6 @@ import menuData from '../data/menuData.json'
                 < NavLink  id='nav-link' className="nav-link"  to="/contact">{t('nav.6')}</NavLink>
               </li>
              
-             
               <li className='nav-item navItem'>
               <div className='cartItem d-flex align-items-center justify-content-center'>
                   <span >{totalItems}</span>
@@ -72,7 +79,7 @@ import menuData from '../data/menuData.json'
               <i className="fa-sharp fa-solid fa-cart-shopping "></i>
               </NavLink>
               </li>
-              <li className='nav-item pe-4'>
+              <li className='nav-item navItem '>
               <NavLink to='/wishlist' className='btn nav-link like'><i class="fa-regular fa-heart"></i></NavLink>
               </li>
               <li className='nav-item navItem'>
@@ -81,10 +88,17 @@ import menuData from '../data/menuData.json'
            <li className='nav-item navItem'>
             <MultiLangBtn />
            </li>
-           
-           
-          
-    </ul>
+           <li className='nav-item navItem pt-3'>
+         
+           </li>
+           <li className='nav-item navItem '>
+           {
+                  getEmail&&getPassword ? <> <NavLink to='/signIn' className='color-main2 pt-3'>{getName}</NavLink>
+              <button  onClick={handleClick} id='nav-link'  className="nav-link sign-out ps-4" >
+              <i className="fa-solid fa-right-from-bracket pe-5" /></button> </>: <p></p>
+              }
+           </li>
+          </ul>
             
               
               

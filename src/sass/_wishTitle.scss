@@ -6,3 +6,37 @@
         color: #5b3d26;
     }
 }
+@media screen and (max-width:480px) and (min-width:290px){
+    .wishlist{ overflow: hidden !important;}
+      .wishlist {
+        padding: 0 !important;
+        margin: 0 !important;
+        img{
+            width: 4rem;
+        }
+        .bookBtn{
+            width: 3rem;
+        }
+        th,
+        td, a{
+            font-size: 14px;
+        }
+}
+}
+
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+    *{
+    overflow: none !important;
+
+    }
+  .wishlist {
+    img{
+        width: 5rem;
+    }
+    .bookBtn{
+        width: 4rem;
+    }
+  }  
+}
+@media screen and (max-width:992px)   and (min-width: 769px){}
+@media  screen and (min-width: 992px) and (max-width:1200px) {}

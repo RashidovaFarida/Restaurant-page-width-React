@@ -5,17 +5,13 @@ import { Link } from 'react-router-dom'
 import { t } from 'i18next'
 import Typewriter from 'typewriter-effect'
 const BlogTable = (props) => {
-  const handleClick=()=>{
-    localStorage.clear();
-    window.location.reload();
-  }
+ 
   
   return (
     <>
    
 
     <div>
-       <button onClick={handleClick} className='sign-out'><i class="fa-solid fa-right-from-bracket"></i></button>
     <section className='blogTaple  d-flex align-items-center justify-content-evenly flex-column '>
     <div>
       <h2 className='color-w ps-5'>{props.name}<h2/> 

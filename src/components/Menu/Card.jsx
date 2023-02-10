@@ -44,7 +44,7 @@ const addToWishlist = (item) => {
 
   return (
 <>
-  <motion.div id={id} key={id} className=" cardMain col-sm-12 col-md-3 col-xl-3 col-xxl-3" initial={{opacity:0}} exit={{opacity:0}}
+  <motion.div id={id} key={id} className=" cardMain col-sm-12 col-md-4 col-xl-3 col-xxl-3" initial={{opacity:0}} exit={{opacity:0}}
     animate={{ opacity: 100 }} transition={{duration: 0.5}}>
     <div className="card ">
       <div className="image d-flex  justify-content-center align-items-center">
@@ -57,7 +57,7 @@ const addToWishlist = (item) => {
         </div>
       </div>
       <div className='title'>
-        <h5>{t(`titleFilter.${title}`)}</h5>
+        <h5 className='menuTitle'>{t(`titleFilter.${title}`)}</h5>
       </div>
       <div className='d-flex w-100 justify-content-between'>
       <button onClick={() => addToWishlist(item)} className='btn  like'> <i class="fa-regular fa-heart"></i></button>

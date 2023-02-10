@@ -852,9 +852,9 @@
   
 
 @media screen and (max-width:480px) and (min-width:320px){
-    *{
-        overflow: none;
-    }
+    // *{
+    //     overflow: none;
+    // }
     .desingBanner{
         display: none !important;
         
@@ -867,7 +867,9 @@
             padding: 0 2%;
 
         }
-
+        .btnRead {
+            height: 5vh !important;
+        }
     }
     #banner6{
         width: 10rem;

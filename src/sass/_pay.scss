@@ -4,12 +4,15 @@
     padding: 25px;
     margin: 25px auto 0;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    .bookBtn{
+      background-color: #9f7d4a ;
+    }
   }
 
 
   .wrapper h2{
     background-color: #fcfcfc;
-    color: #f19c52;
+    color: #9f7d4a;
     font-size: 24px;
     padding: 10px;
     margin-bottom: 20px;
@@ -18,7 +21,7 @@
   }
   h4{
     padding-bottom: 5px;
-    color: #f19c52;
+    color: #9f7d4a;
   }
   .input-group{
     margin-bottom: 8px;
@@ -51,10 +54,10 @@
     color: #333;
   }
   .name:focus, .dob:focus{
-    -webkit-box-shadow:0 0 2px 1px #f19c5280;
-    -moz-box-shadow:0 0 2px 1px #f19c5280;
-    box-shadow: 0 0 2px 1px #f19c5280;
-    border: 1px solid #f19c52;
+    -webkit-box-shadow:0 0 2px 1px #9f7d4a80;
+    -moz-box-shadow:0 0 2px 1px #9f7d4a80;
+    box-shadow: 0 0 2px 1px #9f7d4a80;
+    border: 1px solid #9f7d4a;
   }
   .input-box .icon{
     width: 48px;
@@ -75,9 +78,9 @@
     border-right: none;
   }
   .name:focus + .icon{
-    background-color: #f19c52;
+    background-color: #9f7d4a;
     color: #fff;
-    border-right: 1px solid #f19c52;
+    border-right: 1px solid #9f7d4a;
     border: none;
     transition: 1s;
   }
@@ -113,7 +116,7 @@
     border-bottom-right-radius: 3px;
   }
   .radio:checked + label{
-    background-color: #f19c52;
+    background-color: #9f7d4a;
     color: #fff;
     transition: 0.5s;
   }
@@ -131,7 +134,7 @@
     transition: all 0.2s ease;
   }
   .input-box select:focus{
-    background-color: #f19c52;
+    background-color: #9f7d4a;
     color: #fff;
     text-align: center;
   }
@@ -139,7 +142,7 @@
     width: 100%;
     background: transparent;
     border: none;
-    background: #f19c52;
+    background: #9f7d4a;
     color: #fff;
     padding: 15px;
     border-radius: 4px;
@@ -150,3 +153,22 @@
     cursor: pointer;
     background: #b16405;
   }
+
+
+@media screen and (max-width:480px) and (min-width:320px){
+  
+  .wrapper {
+    width: 380px;}
+}
+@media screen and  (max-width:768px)  and  (min-width: 481px){
+  .wrapper {
+    width: 380px;}
+}
+@media screen and (max-width:992px)   and (min-width: 769px){
+  .wrapper {
+    width: 380px;}
+}
+@media  screen and (min-width: 992px) and (max-width:1200px) {
+  .wrapper {
+    width: 380px;}
+}

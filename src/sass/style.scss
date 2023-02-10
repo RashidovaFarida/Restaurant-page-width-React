@@ -29,6 +29,28 @@ a{
         height: auto
     }
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #1f2429 #7a7d7f;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #7a7d7f;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1f2429;
+    border-radius: 10px;
+    border: 3px solid #1f2429;
+  }
 @import "nav";
 @import "home";
 @import "footer";

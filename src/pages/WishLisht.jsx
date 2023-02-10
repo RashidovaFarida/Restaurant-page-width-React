@@ -14,23 +14,25 @@ const WishlistPage = () => {
   };
 
   return (
-  <div className="container p-5">
-      <table className="table">
+  <div className="container ">
+      <table className="table wishlist">
     <thead>
       <tr>
         <th scope="col">#</th>
         <th scope="col">Img</th>
         <th scope="col">Title</th>
+        <th scope="col">Price</th>
         <th scope="col">Delete</th>
       </tr>
     </thead>
     <tbody className="table-group-divider">
      
       {wishlist.map((item) => (
-            <tr >
+            <tr  >
              <th scope="row">{item.id}</th>
              <td><img src={item.img} width='120' alt="" /></td>
              <td><Link to={`/comments/${item.id}`} className='wishTitle'>{item.title}</Link></td>
+             <td>{item.price}$</td>
              <td><button className='bookBtn' onClick={() => removeFromWishlist(item)}>Remove</button></td>
              </tr>
         ))}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PaymentScfly from './PaymentScfly'
 const Pay = () => {
   return (
     <div className="wrapper">
@@ -41,9 +42,9 @@ const Pay = () => {
         <div className="input-box">
           <h4>Payment Details</h4>
           <input type="radio" name="pay" id="bc1" defaultChecked className="radio" />
-          <label htmlFor="bc1"><span><i className="fa fa-cc-visa" /> Credit Card</span></label>
+          <label htmlFor="bc1"> Credit Card</label>
           <input type="radio" name="pay" id="bc2" className="radio" />
-          <label htmlFor="bc2"><span><i className="fa fa-cc-paypal" /> Paypal</span></label>
+          <label htmlFor="bc2"> Paypal</label>
         </div>
       </div>
       <div className="input-group">
@@ -64,16 +65,47 @@ const Pay = () => {
             <option>03 jun</option>
           </select>
           <select>
-            <option>2020</option>
-            <option>2021</option>
-            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
           </select>
         </div>
       </div>
       <div className="input-group">
-        <div className="input-box">
-          <Link type="submit btn color-main2" to='/payment'>PAY NOW</Link>
+        <div>
+        {/* Button trigger modal */}
+        <button type="button" className=" btn  bookBtn color-w" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         <h5>Pay</h5>
+        </button>
+        {/* Modal */}
+        <div className="modal fade" id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div className="modal-dialog">
+            <div className="modal-content ">
+              <div className="">
+              <div className="payment_header">
+                <div className="check"><i className="fa fa-check" aria-hidden="true" /></div>
+              </div>
+              </div>
+              <div className="modal-body">
+        
+            <div className="payment">
+            
+              <div className="content">
+                <h1>Payment Success !</h1>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
+              </div>
+            </div>
+  
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <Link to='/' type="button" className="btn ">Go to home</Link>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
       </div>
     </form>
   </div>

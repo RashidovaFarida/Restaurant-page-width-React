@@ -20,15 +20,18 @@ import { useTranslation } from 'react-i18next';
 
   <h3>{t(`eptyCart.1`)}</h3>
   </div>
-    
+    // get user data localStroage
     const getEmail = localStorage.getItem("username");
     const getPassword = localStorage.getItem("password");
 
 const handleClick = () => {
+  // Check login 
   if (getEmail && getPassword) {
+    // localStroge has a user info go to Pay.jsx
     window.location.assign("/pay");
 
   } else {
+    //localStroge don't has a user info go to login.jsx
     window.location.assign("/logIn");
   }
 };
